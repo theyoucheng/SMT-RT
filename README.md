@@ -23,9 +23,6 @@ gcc -o taskSimulator_jobContimue taskSimulator_jobContimue.c
 Our purpose is to detect whether a task meets the (m,k) constraint using CBMC, so we select a set containing 5 tasks and make their activation time generate randomly. The test example is in `jobContinue_5_13_testcase.c`.
 
 ```bash
-# compile
-gcc -o taskSimulator_jobContimue taskSimulator_jobContimue.c
-
 # check if the tasks meet the (1,3) constraint.
 cbmc --object-bits 16 --property main.assertion.1 --property main.assertion.2 --property main.assertion.3 jobContinue_5_13_testcase.c
 ```
