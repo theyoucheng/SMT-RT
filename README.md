@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # **A task scheduling simulator**
 
 We implement a simple scheduler based on weakly hard scheduling method to simulate the scheduling process of multiple tasks on a single processor. The weakly hard scheduling model serves as a method for characterizing systems that can withstand certain deadline misses, which introduces (m,k) constraint to describe a task.
@@ -26,3 +27,7 @@ Our purpose is to detect whether a task meets the (m,k) constraint using CBMC, s
 # check if the tasks meet the (1,3) constraint.
 cbmc --object-bits 16 --property main.assertion.1 --property main.assertion.2 --property main.assertion.3 jobContinue_5_13_testcase.c
 ```
+=======
+# SMT-RT
+An SMT approach for solving real-time schedulability analysis problems
+>>>>>>> 04cc6c0088ecdfb236783380b6306fd38d631eca
