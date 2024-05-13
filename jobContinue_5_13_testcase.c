@@ -4,9 +4,9 @@
 #include <assert.h>
 #include <assert.h>
 
-#define SIMULATION_TIME 50
+#define SIMULATION_TIME 60
 #define UTILIZATION 1
-#define TASKS_NUM 3
+#define TASKS_NUM 5
 
 #define M 1
 #define K 3
@@ -39,20 +39,22 @@ int compare_tasks(const void* a, const void* b) {
     return taskA->period - taskB->period;
 }
 
-void initTasks(Task* tasks){
 
-    int ac0 = nondet_int_range(1,SIMULATION_TIME) % SIMULATION_TIME;
+void initTasks(Task* tasks){
+/**
+    int ac0 = nondet_int_range(1,SIMULATION_TIME) % SIMULATION_TIME;//arbitary  //assume in cbmc the first job deadline;simplify
     int ac1 = nondet_int_range(1,SIMULATION_TIME) % SIMULATION_TIME;
-    //int ac2 = nondet_int_range(1,SIMULATION_TIME) % SIMULATION_TIME;
-    //int ac3 = (nondet_int_range(1,SIMULATION_TIME) % SIMULATION_TIME);
-    int ac4 = (nondet_int_range(1,SIMULATION_TIME) % SIMULATION_TIME);
+    int ac2 = nondet_int_range(1,SIMULATION_TIME) % SIMULATION_TIME;
+    int ac3 = nondet_int_range(1,SIMULATION_TIME) % SIMULATION_TIME;
+    int ac4 = nondet_int_range(1,SIMULATION_TIME) % SIMULATION_TIME; //0 activation time
+*/
 
     tasks[0].id=3;
     tasks[0].wcet=3;
     tasks[0].period=11;
     tasks[0].deadline=11;
-    tasks[0].activation=ac0;
-    tasks[0].nextStart=ac0;
+    tasks[0].activation=nondet_int_range(0,20);//change2: the period of the lowest priority task is 20, the set the activation time of other tasks to [0,20]
+    tasks[0].nextStart=tasks[0].activation;
     tasks[0].remaining=3;
     tasks[0].abDeadline=tasks[0].activation+tasks[0].deadline;
     for(int j=0; j<K; j++){
@@ -65,8 +67,8 @@ void initTasks(Task* tasks){
     tasks[1].wcet=3;
     tasks[1].period=15;
     tasks[1].deadline=7;
-    tasks[1].activation=ac1;
-    tasks[1].nextStart=ac1;
+    tasks[1].activation=nondet_int_range(0,20);
+    tasks[1].nextStart=tasks[1].activation;
     tasks[1].remaining=3;
     tasks[1].abDeadline=tasks[1].activation+tasks[1].deadline;
     for(int j=0; j<K; j++){
@@ -75,13 +77,12 @@ void initTasks(Task* tasks){
     tasks[1].count=0;
     tasks[1].flag=0;
 
-/**
     tasks[2].id=1;
     tasks[2].wcet=3;
     tasks[2].period=19;
     tasks[2].deadline=14;
-    tasks[2].activation=ac2;
-    tasks[2].nextStart=ac2;
+    tasks[2].activation=nondet_int_range(0,20);
+    tasks[2].nextStart=tasks[2].activation;
     tasks[2].remaining=3;
     tasks[2].abDeadline=tasks[2].activation+tasks[2].deadline;
     for(int j=0; j<K; j++){
@@ -94,8 +95,8 @@ void initTasks(Task* tasks){
     tasks[3].wcet=2;
     tasks[3].period=19;
     tasks[3].deadline=4;
-    tasks[3].activation=ac3;
-    tasks[3].nextStart=ac3;
+    tasks[3].activation=nondet_int_range(0,20);
+    tasks[3].nextStart=tasks[3].activation;
     tasks[3].remaining=2;
     tasks[3].abDeadline=tasks[3].activation+tasks[3].deadline;
     for(int j=0; j<K; j++){
@@ -107,9 +108,9 @@ void initTasks(Task* tasks){
     tasks[4].id=5;
     tasks[4].wcet=1;
     tasks[4].period=20;
-    tasks[4].deadline=1;
-    tasks[4].activation=ac4;
-    tasks[4].nextStart=ac4;
+    tasks[4].deadline=10;
+    tasks[4].activation=0;//change2: set the activation time of the lowest priority task to 0
+    tasks[4].nextStart=0;
     tasks[4].remaining=1;
     tasks[4].abDeadline=tasks[4].activation+tasks[4].deadline;
     for(int j=0; j<K; j++){
@@ -117,27 +118,18 @@ void initTasks(Task* tasks){
     }
     tasks[4].count=0;
     tasks[4].flag=0;
-    */
-    tasks[2].id=5;
-    tasks[2].wcet=1;
-    tasks[2].period=20;
-    tasks[2].deadline=1;
-    tasks[2].activation=ac4;
-    tasks[2].nextStart=ac4;
-    tasks[2].remaining=1;
-    tasks[2].abDeadline=tasks[2].activation+tasks[2].deadline;
-    for(int j=0; j<K; j++){
-        tasks[2].deadlineMiss[j] = 0;
-    }
-    tasks[2].count=0;
-    tasks[2].flag=0;
+    
+   
 
 }
 
 
 void simulate(Task* tasks) {
     
-    //job-continue strategy: continue the job execution until completion even if its dealine is misses.
+    //job-continue strategy: continue the job execution until completion even if its dealine is missed.
+
+    //__CPROVER_assume(tasks[TASKS_NUM-1].deadlineMiss[0]=1);
+
     int time = 0;
     int exTask = TASKS_NUM; //the index of the task that are running 
     int execution;//execution=1 cpu is occupied； execution=0 cpu idle
@@ -160,9 +152,11 @@ void simulate(Task* tasks) {
             
                 if (tasks[exTask].remaining == 0) {
                     int deadlineMissCount = 0;//counting times of deadlinemiss in the activation window for k consecutive times
-                    if(time > tasks[exTask].abDeadline){
+                    if(time > tasks[exTask].abDeadline || (exTask==TASKS_NUM-1)&&(tasks[exTask].count==0)){
                         tasks[exTask].deadlineMiss[tasks[exTask].count%K]=1;
                         printf("task%d deadline miss\n", tasks[exTask].id);
+                    }else{
+                        tasks[exTask].deadlineMiss[tasks[exTask].count%K]=0;
                     }
                     tasks[exTask].count++;
                     for(int i=0; i<K; i++){
@@ -206,11 +200,11 @@ int main() {
     }
     printf("job-continue(%d,%d) count:%d cnf:%f\n", M, K, count, (float)(TASKS_NUM-count)/TASKS_NUM);
 
-    assert(tasks[0].flag == 0);
-    assert(tasks[1].flag == 0);
-    assert(tasks[2].flag == 0);
+    //assert(tasks[0].flag == 0);
+    //assert(tasks[1].flag == 0);
+    //assert(tasks[2].flag == 0);
     //assert(tasks[3].flag==0);
-    //assert(tasks[4].flag==0);
+    assert(tasks[4].flag==0);
 
     free(tasks);
 
