@@ -4,7 +4,7 @@
 #include <assert.h>
 #include <assert.h>
 
-#define SIMULATION_TIME 60
+#define SIMULATION_TIME 80
 #define UTILIZATION 1
 #define TASKS_NUM 5
 
@@ -41,13 +41,6 @@ int compare_tasks(const void* a, const void* b) {
 
 
 void initTasks(Task* tasks){
-/**
-    int ac0 = nondet_int_range(1,SIMULATION_TIME) % SIMULATION_TIME;//arbitary  //assume in cbmc the first job deadline;simplify
-    int ac1 = nondet_int_range(1,SIMULATION_TIME) % SIMULATION_TIME;
-    int ac2 = nondet_int_range(1,SIMULATION_TIME) % SIMULATION_TIME;
-    int ac3 = nondet_int_range(1,SIMULATION_TIME) % SIMULATION_TIME;
-    int ac4 = nondet_int_range(1,SIMULATION_TIME) % SIMULATION_TIME; //0 activation time
-*/
 
     tasks[0].id=3;
     tasks[0].wcet=3;
@@ -119,8 +112,6 @@ void initTasks(Task* tasks){
     tasks[4].count=0;
     tasks[4].flag=0;
     
-   
-
 }
 
 
@@ -128,7 +119,7 @@ void simulate(Task* tasks) {
     
     //job-continue strategy: continue the job execution until completion even if its dealine is missed.
 
-    //__CPROVER_assume(tasks[TASKS_NUM-1].deadlineMiss[0]=1);
+    __CPROVER_assume(tasks[TASKS_NUM-1].deadlineMiss[0]=1);
 
     int time = 0;
     int exTask = TASKS_NUM; //the index of the task that are running 
@@ -152,7 +143,8 @@ void simulate(Task* tasks) {
             
                 if (tasks[exTask].remaining == 0) {
                     int deadlineMissCount = 0;//counting times of deadlinemiss in the activation window for k consecutive times
-                    if(time > tasks[exTask].abDeadline || (exTask==TASKS_NUM-1)&&(tasks[exTask].count==0)){
+                    //if(time > tasks[exTask].abDeadline || (exTask==TASKS_NUM-1)&&(tasks[exTask].count==0)){
+                    if(time > tasks[exTask].abDeadline){
                         tasks[exTask].deadlineMiss[tasks[exTask].count%K]=1;
                         printf("task%d deadline miss\n", tasks[exTask].id);
                     }else{
@@ -174,7 +166,6 @@ void simulate(Task* tasks) {
                 }
             }
         }else {
-            //printf("t%d\t idle\n", time);
             exTask = TASKS_NUM;
         }
         time++;
