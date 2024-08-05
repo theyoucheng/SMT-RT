@@ -12,24 +12,29 @@ The project consists of several components that work together to generate, prepr
 
 ```
 TaskSimulation/
+|--pre
+|   |--__init__.py
+|   |--pre.py
+|   |--preProcess
+|   |--preProcess.c
+|   |--task_program
 |--task
+|   |--__init__.py
 |   |--generator.py
 |   |--taskset_5_0.95
 |   |--taskset_5_0.90
 |   |--taskset_5_0.85
 |   |--taskset_5-0.80
-|--pre
-|   |--pre.py
-|   |--preProcess.c
-|   |--preProcess
-|--init
-|   |--init.py
 |--init.c
-|--simulate.c
 |--main.c
+|--scheduler.c
+|--scheduler.h
+|--simulate.c
 |--simulate.h
-|--task.h
 |--start.py
+|--task.h
+|--utils.c
+|--utils.h
 |--README.md
 ```
 
@@ -45,6 +50,9 @@ TaskSimulation/
     + `utilization_sum`: the total CPU utilization of all tasks.
     + `Tmin`: minimum task period.
     + `Tmax`: maximum task period.
+    + `M`: the m in (m,k) constraint.
+    + `K`: the k in (m,k) constraint.
+    + `NUMBER`: the task index we want to verify if the task meets the (m,k) constraint(from 0 to num_tasks-1).
 
 **taskset**
 
@@ -54,9 +62,7 @@ TaskSimulation/
 
 + This script preprocesses the initial tasks from taskset.txt to preliminarily check if the tasks are schedulable. It updates the schedulable field of each task based on the analysis results.
 
-### init/init.py
-
-+ A script that reads task information from `taskset.txt` and writes it into the initialization section of task.h. It also allows setting various parameters such as `SIMULATION_TIME`, `TASKS_NUM`, `M`, `K`, and `NUMBER` for configuring the verification process.
++ This script also reads task information from `taskset.txt` and writes it into the initialization section of task.h. 
 
 ### simulate.c, main.c, simulate.h, task.h
 
@@ -70,26 +76,10 @@ TaskSimulation/
 
 ### Generate initial task sets
 
-+ Modify `num_task`, `sutilization_sum`, `Tmin`, `Tmax` in `generator.py` with the desired parameters and run it to create `taskset.txt`.
++ Modify `num_task`, `sutilization_sum`, `Tmin`, `Tmax`, `M`, `K` in `generator.py` with the desired parameters and run it to initialize the programs.
 
 ```bash
-python task/generator.py #modify it according to the actual path.
-```
-
-### Preprocess
-
-+ Run `pre.py` to determine whether the tasks in `taskset.txt` are scheduleble and update the `schedulable` field of the tasks.
-
-```bash
-python pre/pre.py
-```
-
-### Initialize tasks
-
-+ Modify `SIMULATION_TIME`, `TASKS_NUM`, `M`, `K`, `NUMBER` in `init.py` with the desired parameters, and run it to read task information from `taskset.txt` and write it into `task.h`.
-
-```bash
-python init/init.py
+/bin/python3 -m task.generator #modify it according to the actual path.
 ```
 
 ### Start running
