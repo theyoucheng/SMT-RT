@@ -1,7 +1,7 @@
 #config
   
 NUM_TASKS = 5
-UTILIZATION_SUM = 0.8
+UTILIZATION_SUM = 1.0
 
 TMIN = 5
 TMAX = 20
