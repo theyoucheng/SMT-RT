@@ -91,5 +91,5 @@ python -m pre.pre # modify it according to the actual path.
 + Run `start.py` to start verifying.
 
 ```bash
-python start.py \<task_index\> # 'task_index' is a integer which represents a task is not schedulable, and you want to check if it meets (m,k) constraint. The 'task_index' is between 1 and the number of task in taskset.
+python start.py <task_index> # 'task_index' is a integer which represents a task is not schedulable, and you want to check if it meets (m,k) constraint. The 'task_index' is between 1 and the number of task in taskset.
 ```
