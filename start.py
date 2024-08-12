@@ -1,19 +1,47 @@
 import subprocess
 import re
+import sys
+from task.config import NUM_TASKS
+
+def set_task_index(filename, task_index):
+    with open(filename, 'r') as file:
+        content = file.readlines()
+    for i, line in enumerate(content):
+        if line.startswith("#define NUMBER"):
+            content[i] = f"#define NUMBER {task_index - 1}\n"
+            break
+    else:
+        content.insert(0, f"#define NUMBER {task_index - 1}")
+    
+    with open(filename, 'w') as file:
+        file.writelines(content)
+
+def update_taskset(file1, file2, task_index, assert_passed, user_time, sys_time, elapsed_time):
+    with open(file1, 'r') as file:
+        content = file.readlines()
+    task_index_zero_based = task_index - 1
+    task_lines = [i for i, line in enumerate(content) if line.strip().startswith('{') and line.strip().endswith('},')]
+    passed = 'true' if assert_passed else 'false'
+    line = task_lines[task_index_zero_based]
+    content[line] = re.sub(r'(true|false)', passed, content[line])
+    timing_info = f"//Timeing Info: Usertime: {user_time}, System time: {sys_time}, Elaped time: {elapsed_time}\n"
+    result_info = f"//assert(task[{task_index_zero_based}].flag == true): {passed}\n"
+    content.append(timing_info)
+    content.append(result_info)
+    with open(file2, 'w') as file:
+        file.writelines(content)
+
 
 def run_cbmc_with_timing():
     
     command = ['timeout', '1800', 'time', 'cbmc', '--object-bits', '16', '--property', 'main.assertion.1', 'main.c', 'init.c', 'simulate.c', 'scheduler.c', 'utils.c']
     
     try:
-        # Run the command and capture the output
         result = subprocess.Popen(command, stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
         stdout, stderr = result.communicate()
-        # Print CBMC output
         print("\nCBMC Output:")
         print(stdout)
 
-        # Extract and print timing information
         timing_output = stderr.strip()
         timing_info = re.findall(r"(\d+\.\d+user) (\d+\.\d+system) (\d+:\d+\.\d+elapsed)", timing_output)
 
@@ -23,6 +51,14 @@ def run_cbmc_with_timing():
             print(f"System time: {sys_time}")
             print(f"Elapsed time: {elapsed_time}")
         
+        assert_passed = "VERIFICATION FAILED" not in stdout
+        if assert_passed:
+            print("CBMC assertion passed. Generating taskset_result.txt...")
+        else:
+            print("CBMC assertion failed. Generating taskset_result.txt...")
+
+        update_taskset('./task/taskset_init.txt', './task/taskset_result.txt', task_index, assert_passed, user_time, sys_time, elapsed_time)
+
     except subprocess.CalledProcessError as e:
         print(f"CBMC returned non-zero exit status: {e.returncode}")
         print(f"CBMC output:\n{e.output}")
@@ -33,6 +69,19 @@ def run_cbmc_with_timing():
     except Exception as e:
         print(f"An error occurred: {e}")
 
-# Main script
 if __name__ == "__main__":
+    if len(sys.argv) !=2:
+        print("Usage: python start.py <task_index>")
+        sys.exit(1)
+
+    try:
+        task_index = int(sys.argv[1])
+        if task_index < 1 or task_index > NUM_TASKS:
+            print(f"Error: The value must be between 1 and {NUM_TASKS}.")
+            sys.exit(1)
+    except ValueError:
+        print("Error: <task_index> must be an integer between 1 and the number of tasks!")
+        sys.exit(1)
+
+    set_task_index('main.c', task_index)
     run_cbmc_with_timing()

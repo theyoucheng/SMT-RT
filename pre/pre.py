@@ -3,7 +3,6 @@ from task import generator
 TASKS_NUM = str(generator.NUM_TASKS)
 M = str(generator.M)
 K = str(generator.K)
-NUMBER = str(generator.NUMBER)
 
 def read_taskset(taskset_file):
     with open(taskset_file, 'r') as file:
@@ -81,7 +80,6 @@ def write_taskh(filename, tasks, SIMULATION_TIME):
         file.write("#define TASKS_NUM "+TASKS_NUM+"\n")
         file.write("#define M "+M+"\n")
         file.write("#define K "+K+"\n")
-        file.write("#define NUMBER "+NUMBER+"\n\n")
         file.write("typedef struct {\n")
         file.write("    int id;\n")
         file.write("    int wcet;\n")
@@ -114,13 +112,15 @@ def update_task_file(filename, lines, schedulability):
                 parts[4] = "false"
             file.write("{" + ",".join(parts) + "\n")
             if i == int(TASKS_NUM) - 1: 
-                SIMULATION_TIME = (int(generator.K) + 1) * int(parts[2])
+                SIMULATION_TIME = (int(K) + 1) * int(parts[2])
         file.write("};\n")
     return SIMULATION_TIME
 
 def main():
 
-    taskset_file = "taskset.txt"
+    generator.main()
+
+    taskset_file = "./task/taskset_init.txt"
     preProcess = "./pre/preProcess.c"
     taskh = "task.h"
 
