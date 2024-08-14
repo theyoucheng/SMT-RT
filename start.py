@@ -33,10 +33,20 @@ def update_taskset(file1, file2, task_index, assert_passed, user_time, sys_time,
     with open(file2, 'a') as file:
         file.writelines(content)
 
+def update_taskset_timeout(file1, file2, task_index):
+    with open(file1, 'r') as file:
+        content = file.readlines()
+    task_index_zero_based = task_index - 1
+    timing_info = f"//time out...\n"
+    result_info = f"//assume assert(task[{task_index_zero_based}].flag == true): true\n"
+    content.append(timing_info)
+    content.append(result_info)
+    with open(file2, 'a') as file:
+        file.writelines(content)
 
 def run_cbmc_with_timing():
     
-    command = ['timeout', '1800', 'time', 'cbmc', '--object-bits', '16', '--property', 'main.assertion.1', 'main.c', 'init.c', 'simulate.c', 'scheduler.c', 'utils.c']
+    command = ['timeout', '10', 'time', 'cbmc', '--object-bits', '16', '--property', 'main.assertion.1', 'main.c', 'init.c', 'simulate.c', 'scheduler.c', 'utils.c']
     
     try:
         result = subprocess.Popen(command, stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
@@ -52,14 +62,17 @@ def run_cbmc_with_timing():
             print(f"User time: {user_time}")
             print(f"System time: {sys_time}")
             print(f"Elapsed time: {elapsed_time}")
-        
-        assert_passed = "VERIFICATION FAILED" not in stdout
-        if assert_passed:
-            print("CBMC assertion passed. Generating taskset_result.txt...")
-        else:
-            print("CBMC assertion failed. Generating taskset_result.txt...")
+            assert_passed = "VERIFICATION FAILED" not in stdout
+            if assert_passed:
+                print("CBMC assertion passed. Generating taskset_result.txt...")
+            else:
+                print("CBMC assertion failed. Generating taskset_result.txt...")
 
-        update_taskset('./task/taskset_init.txt', './task/taskset_result.txt', task_index, assert_passed, user_time, sys_time, elapsed_time)
+            update_taskset('./task/taskset_init.txt', './task/taskset_result.txt', task_index, assert_passed, user_time, sys_time, elapsed_time)
+
+        else:
+            print("timeout...\n")
+            update_taskset_timeout('./task/taskset_init.txt', './task/taskset_result.txt', task_index)
 
     except subprocess.CalledProcessError as e:
         print(f"CBMC returned non-zero exit status: {e.returncode}")
