@@ -2,8 +2,6 @@
 #ifndef SIMULATE_H
 #define SIMULATE_H
 
-#include "scheduler.h"
-
-void simulate(int taskId, Scheduler* scheduler);
+void simulate(int taskId);
 
 #endif

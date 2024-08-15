@@ -46,7 +46,7 @@ def update_taskset_timeout(file1, file2, task_index):
 
 def run_cbmc_with_timing():
     
-    command = ['timeout', '1800', 'time', 'cbmc', '--object-bits', '16', '--property', 'main.assertion.1', 'main.c', 'init.c', 'simulate.c', 'scheduler.c', 'utils.c']
+    command = ['timeout', '1800', 'time', 'cbmc', '--object-bits', '16', '--property', 'main.assertion.1', 'main.c', 'init.c', 'simulate.c']
     
     try:
         result = subprocess.Popen(command, stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
