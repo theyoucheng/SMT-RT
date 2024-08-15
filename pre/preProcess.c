@@ -50,11 +50,11 @@ void isSchedulable(Task* tasks, int i) {
 
 int main() {
 Task tasks[TASKS_NUM] = {
-    {1,1,7,4,false,1,0,0,0,0,true},
-    {2,1,13,6,false,1,0,0,0,0,true},
-    {3,5,14,14,false,5,0,0,0,0,true},
-    {4,2,15,8,false,2,0,0,0,0,true},
-    {5,3,16,6,false,3,0,0,0,0,true},
+    {1,1,8,3,false,1,0,0,0,0,true},
+    {2,2,8,5,false,2,0,0,0,0,true},
+    {3,3,14,9,false,3,0,0,0,0,true},
+    {4,2,19,12,false,2,0,0,0,0,true},
+    {5,1,19,12,false,1,0,0,0,0,true},
     };
     for (int i = 0; i < TASKS_NUM; i++) {
         isSchedulable(tasks, i);
