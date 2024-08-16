@@ -23,7 +23,7 @@ def update_taskset(file1, file2, task_index, assert_passed, user_time, sys_time,
     task_lines = [i for i, line in enumerate(content) if line.strip().startswith('{') and line.strip().endswith('},')]
     passed = 'true' if assert_passed else 'false'
     line = task_lines[task_index_zero_based]
-    content[line] = re.sub(r'(true|false)', passed, content[line])
+    content[line] = re.sub(r'(true})', passed+"}", content[line])
     with open(file1, 'w') as file:
         file.writelines(content)
     timing_info = f"//Timeing Info: Usertime: {user_time}, System time: {sys_time}, Elaped time: {elapsed_time}\n"
