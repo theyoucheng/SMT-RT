@@ -1306,3 +1306,443 @@
 };
 //Timeing Info: Usertime: 1465.07user, System time: 22.75system, Elaped time: 24:48.82elapsed
 //assert(task[1].flag == true): true
+{
+{1,1,5,2,true,1,0,0,0,0,true},
+{2,3,9,4,true,3,0,0,0,0,true},
+{3,1,10,10,true,1,0,0,0,0,true},
+{4,3,17,9,true,3,0,0,0,0,true},
+{5,2,19,14,false,2,0,0,0,0,false},
+};
+//Timeing Info: Usertime: 103.62user, System time: 3.08system, Elaped time: 1:46.73elapsed
+//assert(task[4].flag == true): false
+{
+{1,1,6,1,true,1,0,0,0,0,true},
+{2,1,7,2,true,1,0,0,0,0,true},
+{3,2,11,10,true,2,0,0,0,0,true},
+{4,3,15,12,true,3,0,0,0,0,true},
+{5,5,17,10,false,5,0,0,0,0,false},
+};
+//Timeing Info: Usertime: 51.49user, System time: 2.24system, Elaped time: 0:53.75elapsed
+//assert(task[4].flag == true): false
+{
+{1,1,6,5,true,1,0,0,0,0,true},
+{2,1,12,9,true,1,0,0,0,0,true},
+{3,1,12,4,true,1,0,0,0,0,true},
+{4,9,13,13,false,9,0,0,0,0,true},
+{5,1,16,3,false,1,0,0,0,0,true},
+};
+//Timeing Info: Usertime: 1165.44user, System time: 10.96system, Elaped time: 19:36.96elapsed
+//assert(task[4].flag == true): true
+{
+{1,1,6,5,true,1,0,0,0,0,true},
+{2,1,12,9,true,1,0,0,0,0,true},
+{3,1,12,4,true,1,0,0,0,0,true},
+{4,9,13,13,false,9,0,0,0,0,false},
+{5,1,16,3,false,1,0,0,0,0,true},
+};
+//Timeing Info: Usertime: 47.02user, System time: 2.10system, Elaped time: 0:49.14elapsed
+//assert(task[3].flag == true): false
+{
+{1,1,6,1,true,1,0,0,0,0,true},
+{2,1,10,5,true,1,0,0,0,0,true},
+{3,4,11,4,false,4,0,0,0,0,true},
+{4,5,16,10,false,5,0,0,0,0,true},
+{5,1,20,8,false,1,0,0,0,0,false},
+};
+//Timeing Info: Usertime: 59.12user, System time: 2.69system, Elaped time: 1:01.83elapsed
+//assert(task[4].flag == true): false
+{
+{1,1,6,1,true,1,0,0,0,0,true},
+{2,1,10,5,true,1,0,0,0,0,true},
+{3,4,11,4,false,4,0,0,0,0,true},
+{4,5,16,10,false,5,0,0,0,0,false},
+{5,1,20,8,false,1,0,0,0,0,false},
+};
+//Timeing Info: Usertime: 60.18user, System time: 2.57system, Elaped time: 1:02.76elapsed
+//assert(task[3].flag == true): false
+{
+{1,1,6,1,true,1,0,0,0,0,true},
+{2,1,10,5,true,1,0,0,0,0,true},
+{3,4,11,4,false,4,0,0,0,0,false},
+{4,5,16,10,false,5,0,0,0,0,false},
+{5,1,20,8,false,1,0,0,0,0,false},
+};
+//Timeing Info: Usertime: 58.95user, System time: 2.61system, Elaped time: 1:01.58elapsed
+//assert(task[2].flag == true): false
+{
+{1,1,5,1,true,1,0,0,0,0,true},
+{2,1,8,1,false,1,0,0,0,0,true},
+{3,1,8,7,true,1,0,0,0,0,true},
+{4,3,12,7,true,3,0,0,0,0,true},
+{5,10,20,13,false,10,0,0,0,0,false},
+};
+//Timeing Info: Usertime: 61.46user, System time: 2.63system, Elaped time: 1:04.11elapsed
+//assert(task[4].flag == true): false
+{
+{1,1,5,1,true,1,0,0,0,0,true},
+{2,1,8,1,false,1,0,0,0,0,true},
+{3,1,8,7,true,1,0,0,0,0,true},
+{4,3,12,7,true,3,0,0,0,0,true},
+{5,10,20,13,false,10,0,0,0,0,false},
+};
+//Timeing Info: Usertime: 691.25user, System time: 10.77system, Elaped time: 11:42.38elapsed
+//assert(task[1].flag == true): true
+{
+{1,1,11,4,true,1,0,0,0,0,true},
+{2,1,13,2,true,1,0,0,0,0,true},
+{3,4,14,4,false,4,0,0,0,0,true},
+{4,1,16,2,false,1,0,0,0,0,true},
+{5,7,18,14,false,7,0,0,0,0,false},
+};
+//Timeing Info: Usertime: 60.65user, System time: 2.50system, Elaped time: 1:03.19elapsed
+//assert(task[4].flag == true): false
+{
+{1,1,11,4,true,1,0,0,0,0,true},
+{2,1,13,2,true,1,0,0,0,0,true},
+{3,4,14,4,false,4,0,0,0,0,true},
+{4,1,16,2,false,1,0,0,0,0,false},
+{5,7,18,14,false,7,0,0,0,0,false},
+};
+//Timeing Info: Usertime: 54.39user, System time: 2.38system, Elaped time: 0:56.81elapsed
+//assert(task[3].flag == true): false
+{
+{1,1,11,4,true,1,0,0,0,0,true},
+{2,1,13,2,true,1,0,0,0,0,true},
+{3,4,14,4,false,4,0,0,0,0,false},
+{4,1,16,2,false,1,0,0,0,0,false},
+{5,7,18,14,false,7,0,0,0,0,false},
+};
+//Timeing Info: Usertime: 55.95user, System time: 2.55system, Elaped time: 0:58.52elapsed
+//assert(task[2].flag == true): false
+{
+{1,1,9,6,true,1,0,0,0,0,true},
+{2,7,15,11,true,7,0,0,0,0,true},
+{3,1,15,5,false,1,0,0,0,0,true},
+{4,1,15,10,false,1,0,0,0,0,true},
+{5,4,17,6,false,4,0,0,0,0,false},
+};
+//Timeing Info: Usertime: 50.78user, System time: 2.15system, Elaped time: 0:52.97elapsed
+//assert(task[4].flag == true): false
+{
+{1,1,9,6,true,1,0,0,0,0,true},
+{2,7,15,11,true,7,0,0,0,0,true},
+{3,1,15,5,false,1,0,0,0,0,true},
+{4,1,15,10,false,1,0,0,0,0,true},
+{5,4,17,6,false,4,0,0,0,0,false},
+};
+//time out...
+//assume assert(task[3].flag == true): true
+{
+{1,1,9,6,true,1,0,0,0,0,true},
+{2,7,15,11,true,7,0,0,0,0,true},
+{3,1,15,5,false,1,0,0,0,0,false},
+{4,1,15,10,false,1,0,0,0,0,true},
+{5,4,17,6,false,4,0,0,0,0,false},
+};
+//Timeing Info: Usertime: 60.91user, System time: 2.36system, Elaped time: 1:03.29elapsed
+//assert(task[2].flag == true): false
+{
+{1,1,5,2,true,1,0,0,0,0,true},
+{2,1,5,1,false,1,0,0,0,0,true},
+{3,1,6,2,false,1,0,0,0,0,true},
+{4,2,10,5,true,2,0,0,0,0,true},
+{5,2,15,8,false,2,0,0,0,0,false},
+};
+//Timeing Info: Usertime: 43.91user, System time: 1.83system, Elaped time: 0:45.76elapsed
+//assert(task[4].flag == true): false
+{
+{1,1,5,2,true,1,0,0,0,0,true},
+{2,1,5,1,false,1,0,0,0,0,true},
+{3,1,6,2,false,1,0,0,0,0,true},
+{4,2,10,5,true,2,0,0,0,0,true},
+{5,2,15,8,false,2,0,0,0,0,false},
+};
+//Timeing Info: Usertime: 164.97user, System time: 3.23system, Elaped time: 2:48.24elapsed
+//assert(task[2].flag == true): true
+{
+{1,1,5,2,true,1,0,0,0,0,true},
+{2,1,5,1,false,1,0,0,0,0,true},
+{3,1,6,2,false,1,0,0,0,0,true},
+{4,2,10,5,true,2,0,0,0,0,true},
+{5,2,15,8,false,2,0,0,0,0,false},
+};
+//Timeing Info: Usertime: 184.51user, System time: 3.38system, Elaped time: 3:07.99elapsed
+//assert(task[1].flag == true): true
+{
+{1,1,5,5,true,1,0,0,0,0,true},
+{2,4,10,9,true,4,0,0,0,0,true},
+{3,1,10,10,true,1,0,0,0,0,true},
+{4,1,11,2,false,1,0,0,0,0,true},
+{5,3,14,4,false,3,0,0,0,0,false},
+};
+//Timeing Info: Usertime: 39.48user, System time: 1.78system, Elaped time: 0:41.28elapsed
+//assert(task[4].flag == true): false
+{
+{1,1,5,5,true,1,0,0,0,0,true},
+{2,4,10,9,true,4,0,0,0,0,true},
+{3,1,10,10,true,1,0,0,0,0,true},
+{4,1,11,2,false,1,0,0,0,0,false},
+{5,3,14,4,false,3,0,0,0,0,false},
+};
+//Timeing Info: Usertime: 42.44user, System time: 1.87system, Elaped time: 0:44.33elapsed
+//assert(task[3].flag == true): false
+{
+{1,1,5,2,true,1,0,0,0,0,true},
+{2,1,7,1,false,1,0,0,0,0,true},
+{3,1,8,1,false,1,0,0,0,0,true},
+{4,8,15,9,false,8,0,0,0,0,true},
+{5,3,16,9,false,3,0,0,0,0,true},
+};
+//Timeing Info: Usertime: 608.75user, System time: 8.32system, Elaped time: 10:17.33elapsed
+//assert(task[4].flag == true): true
+{
+{1,1,5,2,true,1,0,0,0,0,true},
+{2,1,7,1,false,1,0,0,0,0,true},
+{3,1,8,1,false,1,0,0,0,0,true},
+{4,8,15,9,false,8,0,0,0,0,false},
+{5,3,16,9,false,3,0,0,0,0,true},
+};
+//Timeing Info: Usertime: 45.86user, System time: 2.00system, Elaped time: 0:47.87elapsed
+//assert(task[3].flag == true): false
+{
+{1,1,5,2,true,1,0,0,0,0,true},
+{2,1,7,1,false,1,0,0,0,0,true},
+{3,1,8,1,false,1,0,0,0,0,true},
+{4,8,15,9,false,8,0,0,0,0,false},
+{5,3,16,9,false,3,0,0,0,0,true},
+};
+//Timeing Info: Usertime: 635.18user, System time: 8.49system, Elaped time: 10:44.03elapsed
+//assert(task[2].flag == true): true
+{
+{1,1,5,2,true,1,0,0,0,0,true},
+{2,1,7,1,false,1,0,0,0,0,true},
+{3,1,8,1,false,1,0,0,0,0,true},
+{4,8,15,9,false,8,0,0,0,0,false},
+{5,3,16,9,false,3,0,0,0,0,true},
+};
+//Timeing Info: Usertime: 605.45user, System time: 8.56system, Elaped time: 10:14.33elapsed
+//assert(task[1].flag == true): true
+{
+{1,1,6,4,true,1,0,0,0,0,true},
+{2,2,9,5,true,2,0,0,0,0,true},
+{3,1,18,18,true,1,0,0,0,0,true},
+{4,1,19,7,true,1,0,0,0,0,true},
+{5,9,20,14,false,9,0,0,0,0,false},
+};
+//Timeing Info: Usertime: 61.93user, System time: 2.47system, Elaped time: 1:04.41elapsed
+//assert(task[4].flag == true): false
+{
+{1,1,5,4,true,1,0,0,0,0,true},
+{2,2,9,2,false,2,0,0,0,0,true},
+{3,2,11,3,false,2,0,0,0,0,true},
+{4,1,14,1,false,1,0,0,0,0,true},
+{5,1,15,6,false,1,0,0,0,0,false},
+};
+//Timeing Info: Usertime: 69.66user, System time: 2.28system, Elaped time: 1:11.96elapsed
+//assert(task[4].flag == true): false
+{
+{1,1,5,4,true,1,0,0,0,0,true},
+{2,2,9,2,false,2,0,0,0,0,true},
+{3,2,11,3,false,2,0,0,0,0,true},
+{4,1,14,1,false,1,0,0,0,0,false},
+{5,1,15,6,false,1,0,0,0,0,false},
+};
+//Timeing Info: Usertime: 44.46user, System time: 1.86system, Elaped time: 0:46.34elapsed
+//assert(task[3].flag == true): false
+{
+{1,1,5,4,true,1,0,0,0,0,true},
+{2,2,9,2,false,2,0,0,0,0,true},
+{3,2,11,3,false,2,0,0,0,0,false},
+{4,1,14,1,false,1,0,0,0,0,false},
+{5,1,15,6,false,1,0,0,0,0,false},
+};
+//Timeing Info: Usertime: 55.01user, System time: 2.16system, Elaped time: 0:57.19elapsed
+//assert(task[2].flag == true): false
+{
+{1,1,5,4,true,1,0,0,0,0,true},
+{2,2,9,2,false,2,0,0,0,0,true},
+{3,2,11,3,false,2,0,0,0,0,false},
+{4,1,14,1,false,1,0,0,0,0,false},
+{5,1,15,6,false,1,0,0,0,0,false},
+};
+//Timeing Info: Usertime: 780.83user, System time: 10.08system, Elaped time: 13:11.54elapsed
+//assert(task[1].flag == true): true
+{
+{1,1,5,2,true,1,0,0,0,0,true},
+{2,1,7,4,true,1,0,0,0,0,true},
+{3,1,14,12,true,1,0,0,0,0,true},
+{4,1,14,9,true,1,0,0,0,0,true},
+{5,6,17,14,true,6,0,0,0,0,true},
+};
+//all tasks generated are schedulable...
+{
+{1,1,9,3,true,1,0,0,0,0,true},
+{2,9,15,10,false,9,0,0,0,0,true},
+{3,1,18,10,false,1,0,0,0,0,true},
+{4,1,18,17,true,1,0,0,0,0,true},
+{5,4,20,15,false,4,0,0,0,0,false},
+};
+//Timeing Info: Usertime: 59.78user, System time: 2.72system, Elaped time: 1:02.52elapsed
+//assert(task[4].flag == true): false
+{
+{1,1,9,3,true,1,0,0,0,0,true},
+{2,9,15,10,false,9,0,0,0,0,true},
+{3,1,18,10,false,1,0,0,0,0,true},
+{4,1,18,17,true,1,0,0,0,0,true},
+{5,4,20,15,false,4,0,0,0,0,false},
+};
+//time out...
+//assume assert(task[2].flag == true): true
+{
+{1,1,9,3,true,1,0,0,0,0,true},
+{2,9,15,10,false,9,0,0,0,0,true},
+{3,1,18,10,false,1,0,0,0,0,true},
+{4,1,18,17,true,1,0,0,0,0,true},
+{5,4,20,15,false,4,0,0,0,0,false},
+};
+//Timeing Info: Usertime: 1522.90user, System time: 22.53system, Elaped time: 25:46.25elapsed
+//assert(task[1].flag == true): true
+{
+{1,2,7,3,true,2,0,0,0,0,true},
+{2,2,13,13,true,2,0,0,0,0,true},
+{3,3,14,14,true,3,0,0,0,0,true},
+{4,2,17,11,true,2,0,0,0,0,true},
+{5,1,19,3,false,1,0,0,0,0,false},
+};
+//Timeing Info: Usertime: 58.54user, System time: 2.26system, Elaped time: 1:00.82elapsed
+//assert(task[4].flag == true): false
+{
+{1,1,6,5,true,1,0,0,0,0,true},
+{2,1,8,5,true,1,0,0,0,0,true},
+{3,1,11,4,true,1,0,0,0,0,true},
+{4,3,19,7,true,3,0,0,0,0,true},
+{5,9,19,19,false,9,0,0,0,0,false},
+};
+//Timeing Info: Usertime: 62.87user, System time: 2.33system, Elaped time: 1:05.22elapsed
+//assert(task[4].flag == true): false
+{
+{1,1,6,6,true,1,0,0,0,0,true},
+{2,1,7,1,false,1,0,0,0,0,true},
+{3,1,9,6,true,1,0,0,0,0,true},
+{4,7,13,13,false,7,0,0,0,0,true},
+{5,1,19,12,false,1,0,0,0,0,false},
+};
+//Timeing Info: Usertime: 73.25user, System time: 2.49system, Elaped time: 1:15.76elapsed
+//assert(task[4].flag == true): false
+{
+{1,1,6,6,true,1,0,0,0,0,true},
+{2,1,7,1,false,1,0,0,0,0,true},
+{3,1,9,6,true,1,0,0,0,0,true},
+{4,7,13,13,false,7,0,0,0,0,true},
+{5,1,19,12,false,1,0,0,0,0,false},
+};
+//Timeing Info: Usertime: 713.77user, System time: 5.94system, Elaped time: 12:00.02elapsed
+//assert(task[3].flag == true): true
+{
+{1,1,6,6,true,1,0,0,0,0,true},
+{2,1,7,1,false,1,0,0,0,0,true},
+{3,1,9,6,true,1,0,0,0,0,true},
+{4,7,13,13,false,7,0,0,0,0,true},
+{5,1,19,12,false,1,0,0,0,0,false},
+};
+//Timeing Info: Usertime: 839.82user, System time: 5.27system, Elaped time: 14:05.48elapsed
+//assert(task[1].flag == true): true
+{
+{1,1,6,3,true,1,0,0,0,0,true},
+{2,1,7,6,true,1,0,0,0,0,true},
+{3,1,15,13,true,1,0,0,0,0,true},
+{4,4,16,12,true,4,0,0,0,0,true},
+{5,10,20,13,false,10,0,0,0,0,false},
+};
+//Timeing Info: Usertime: 63.65user, System time: 5.10system, Elaped time: 1:08.77elapsed
+//assert(task[4].flag == true): false
+{
+{1,3,9,7,true,3,0,0,0,0,true},
+{2,1,11,11,true,1,0,0,0,0,true},
+{3,1,14,13,true,1,0,0,0,0,true},
+{4,3,14,14,true,3,0,0,0,0,true},
+{5,5,16,15,false,5,0,0,0,0,false},
+};
+//Timeing Info: Usertime: 56.45user, System time: 1.87system, Elaped time: 0:58.35elapsed
+//assert(task[4].flag == true): false
+{
+{1,1,5,1,true,1,0,0,0,0,true},
+{2,2,12,8,true,2,0,0,0,0,true},
+{3,5,12,12,true,5,0,0,0,0,true},
+{4,1,16,1,false,1,0,0,0,0,true},
+{5,3,18,4,false,3,0,0,0,0,false},
+};
+//Timeing Info: Usertime: 57.44user, System time: 2.56system, Elaped time: 1:00.02elapsed
+//assert(task[4].flag == true): false
+{
+{1,1,5,1,true,1,0,0,0,0,true},
+{2,2,12,8,true,2,0,0,0,0,true},
+{3,5,12,12,true,5,0,0,0,0,true},
+{4,1,16,1,false,1,0,0,0,0,false},
+{5,3,18,4,false,3,0,0,0,0,false},
+};
+//Timeing Info: Usertime: 56.50user, System time: 2.34system, Elaped time: 0:58.86elapsed
+//assert(task[3].flag == true): false
+{
+{1,2,5,3,true,2,0,0,0,0,true},
+{2,3,10,10,true,3,0,0,0,0,true},
+{3,1,12,6,false,1,0,0,0,0,true},
+{4,1,14,9,true,1,0,0,0,0,true},
+{5,2,16,11,false,2,0,0,0,0,false},
+};
+//Timeing Info: Usertime: 46.20user, System time: 2.16system, Elaped time: 0:48.38elapsed
+//assert(task[4].flag == true): false
+{
+{1,2,5,3,true,2,0,0,0,0,true},
+{2,3,10,10,true,3,0,0,0,0,true},
+{3,1,12,6,false,1,0,0,0,0,true},
+{4,1,14,9,true,1,0,0,0,0,true},
+{5,2,16,11,false,2,0,0,0,0,false},
+};
+//Timeing Info: Usertime: 671.02user, System time: 5.38system, Elaped time: 11:16.71elapsed
+//assert(task[2].flag == true): true
+{
+{1,7,9,9,true,7,0,0,0,0,true},
+{2,1,12,2,false,1,0,0,0,0,true},
+{3,1,13,12,true,1,0,0,0,0,true},
+{4,1,16,10,false,1,0,0,0,0,true},
+{5,1,19,1,false,1,0,0,0,0,false},
+};
+//Timeing Info: Usertime: 64.16user, System time: 2.81system, Elaped time: 1:07.01elapsed
+//assert(task[4].flag == true): false
+{
+{1,7,9,9,true,7,0,0,0,0,true},
+{2,1,12,2,false,1,0,0,0,0,true},
+{3,1,13,12,true,1,0,0,0,0,true},
+{4,1,16,10,false,1,0,0,0,0,false},
+{5,1,19,1,false,1,0,0,0,0,false},
+};
+//Timeing Info: Usertime: 59.27user, System time: 2.57system, Elaped time: 1:01.89elapsed
+//assert(task[3].flag == true): false
+{
+{1,7,9,9,true,7,0,0,0,0,true},
+{2,1,12,2,false,1,0,0,0,0,false},
+{3,1,13,12,true,1,0,0,0,0,true},
+{4,1,16,10,false,1,0,0,0,0,false},
+{5,1,19,1,false,1,0,0,0,0,false},
+};
+//Timeing Info: Usertime: 64.78user, System time: 2.50system, Elaped time: 1:07.30elapsed
+//assert(task[1].flag == true): false
+{
+{1,1,9,4,true,1,0,0,0,0,true},
+{2,1,9,9,true,1,0,0,0,0,true},
+{3,3,11,8,true,3,0,0,0,0,true},
+{4,1,15,1,false,1,0,0,0,0,true},
+{5,6,17,17,false,6,0,0,0,0,true},
+};
+//time out...
+//assume assert(task[4].flag == true): true
+{
+{1,1,9,4,true,1,0,0,0,0,true},
+{2,1,9,9,true,1,0,0,0,0,true},
+{3,3,11,8,true,3,0,0,0,0,true},
+{4,1,15,1,false,1,0,0,0,0,false},
+{5,6,17,17,false,6,0,0,0,0,true},
+};
+//Timeing Info: Usertime: 51.77user, System time: 2.51system, Elaped time: 0:54.30elapsed
+//assert(task[3].flag == true): false
