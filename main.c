@@ -1,4 +1,4 @@
-#define NUMBER 4
+#define NUMBER 2
 #include <stdio.h>
 #include "task.h"      // 任务结构体和外部变量的声明
 #include "simulate.h"  // simulate 函数的声明

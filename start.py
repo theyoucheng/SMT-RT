@@ -50,6 +50,7 @@ def update_taskset_timeout(file1, file2, task_index):
 def update_taskset_all_schedulable(file1, file2):
     with open(file1, 'r') as file:
         content = file.readlines()
+    content.append("\n")
     content.append(f"//all tasks generated are schedulable...\n")
     with open(file2, 'a') as file:
         file.writelines(content)
@@ -104,14 +105,16 @@ if __name__ == "__main__":
         taskset_index = str(sys.argv[2])
         if task_index < 0 or task_index > NUM_TASKS:
             print(f"Error: The value must be between 1 and {NUM_TASKS}.")
-            sys.exit(1)
+            #sys.exit(1)
         elif task_index == 0:
             print(f"All tasks generated are schedulable.")
             update_taskset_all_schedulable('./task/taskset'+taskset_index+'.txt', './task/taskset_result.txt')
-            sys.exit(1)
+            #sys.exit(1)
+        else:
+            set_task_index('main.c', task_index)
+            run_cbmc_with_timing(taskset_index)
     except ValueError:
         print("Error: <task_index> must be an integer between 1 and the number of tasks!")
         sys.exit(1)
 
-    set_task_index('main.c', task_index)
-    run_cbmc_with_timing(taskset_index)
+    
