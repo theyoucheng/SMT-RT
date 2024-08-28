@@ -2,7 +2,7 @@ import subprocess
 import re
 import sys
 
-NUM_TASKS = 5
+NUM_TASKS = 10
 
 def set_task_index(filename, task_index):
     with open(filename, 'r') as file:
@@ -57,7 +57,7 @@ def update_taskset_all_schedulable(file1, file2):
 
 def run_cbmc_with_timing(taskset_index):
     
-    command = ['timeout', '1800', 'time', 'cbmc', '--object-bits', '16', '--property', 'main.assertion.1', 'main.c', 'init.c', 'simulate.c']
+    command = ['timeout', '3600', 'time', 'cbmc', '--object-bits', '16', '--property', 'main.assertion.1', 'main.c', 'init.c', 'simulate.c']
     
     try:
         result = subprocess.Popen(command, stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)

@@ -1,8 +1,8 @@
 import sys
 
-TASKS_NUM = '5'
-M = '2'
-K = '5'
+TASKS_NUM = '10'
+M = '1'
+K = '3'
 
 def read_taskset(taskset_file):
     with open(taskset_file, 'r') as file:

@@ -36,7 +36,7 @@ def run_pre_script(taskset_index):
 
 
 def main():
-    for taskset_index in range(1, 6):
+    for taskset_index in range(1, 2):
         taskset_file = os.path.join(taskset_dir, f'taskset{taskset_index}.txt')
         false_indices = extract_false_task_indices(taskset_file)
         
@@ -52,9 +52,5 @@ def main():
             print(f"Running start.py with task_index={task_index} and taskset_index={taskset_index}")
             run_start_script(task_index, taskset_index)
         
-        # 如果 task_index 为5时，增加 taskset_index 并继续
-        if taskset_index == 5:
-            break
-
 if __name__ == "__main__":
     main()
