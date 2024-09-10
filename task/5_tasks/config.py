@@ -1,5 +1,6 @@
 #config
-  
+# time threshold: 3600 seconds
+
 NUM_TASKS = 5
 UTILIZATION_SUM = 1.0
 
