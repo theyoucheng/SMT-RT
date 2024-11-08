@@ -149,7 +149,7 @@ if __name__ == "__main__":
         task_index = NUM_TASKS
         taskset_index = str(sys.argv[1]) # 1~100
         taskset = "./taskset/n-" + str(NUM_TASKS) + "_u-" + str(UTILIZATION_SUM) + "/" + str(taskset_index) + ".txt"
-        result_file = "./taskset/n-" + str(NUM_TASKS) + "_u-" + str(UTILIZATION_SUM) + "_result.txt"
+        result_file = "./taskset/n-" + str(NUM_TASKS) + "_u-" + str(UTILIZATION_SUM) + "_" + str(M) + "_" + str(K) + "_result.txt"
         set_task_index('main.c', task_index)
         lines = read_taskset(taskset)
         print(lines)
