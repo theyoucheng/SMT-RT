@@ -1,0 +1,2372 @@
+************************************
+Reading 5_tasks/taskset_dat/1.dat
+------------------------------------
+task id: 3, (3, 3, 5, 11) wcrt = 7, bcrt = 3
+Task 3 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Feasible <<<<<
+++++++++++++++++++++++++++++++++++++++++
+the number of missed deadline is 4
+Time = 0.188185 sec 
+Constrain satisfied? 0
+
+
+------------------------------------
+task id: 4, (1, 1, 7, 13) wcrt = 19, bcrt = 1
+Task 4 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Feasible <<<<<
+++++++++++++++++++++++++++++++++++++++++
+the number of missed deadline is 3
+Time = 0.437392 sec 
+Constrain satisfied? 0
+
+
+------------------------------------
+task id: 5, (1, 1, 12, 19) wcrt = 23, bcrt = 1
+Task 5 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Optimal <<<<<
+++++++++++++++++++++++++++++++++++++++++
+the number of missed deadline is 5
+Time = 0.570851 sec 
+Constrain satisfied? 0
+
+
+************************************
+Reading 5_tasks/taskset_dat/2.dat
+************************************
+Reading 5_tasks/taskset_dat/3.dat
+------------------------------------
+task id: 59, (1, 1, 1, 8) wcrt = 5, bcrt = 1
+Task 3 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Feasible <<<<<
+++++++++++++++++++++++++++++++++++++++++
+the number of missed deadline is 4
+Time = 0.0327671 sec 
+Constrain satisfied? 0
+
+
+------------------------------------
+task id: 60, (2, 2, 6, 11) wcrt = 8, bcrt = 2
+Task 4 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Feasible <<<<<
+++++++++++++++++++++++++++++++++++++++++
+the number of missed deadline is 3
+Time = 0.276702 sec 
+Constrain satisfied? 0
+
+
+------------------------------------
+task id: 61, (1, 1, 6, 12) wcrt = 22, bcrt = 1
+Task 5 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Optimal <<<<<
+++++++++++++++++++++++++++++++++++++++++
+the number of missed deadline is 5
+Time = 0.421871 sec 
+Constrain satisfied? 0
+
+
+************************************
+Reading 5_tasks/taskset_dat/4.dat
+************************************
+Reading 5_tasks/taskset_dat/5.dat
+------------------------------------
+task id: 134, (4, 4, 6, 10) wcrt = 8, bcrt = 4
+Task 4 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Feasible <<<<<
+++++++++++++++++++++++++++++++++++++++++
+the number of missed deadline is 4
+Time = 0.0303671 sec 
+Constrain satisfied? 0
+
+
+------------------------------------
+task id: 135, (2, 2, 19, 20) wcrt = 30, bcrt = 2
+Task 5 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Optimal <<<<<
+++++++++++++++++++++++++++++++++++++++++
+the number of missed deadline is 4
+Time = 0.602456 sec 
+Constrain satisfied? 0
+
+
+************************************
+Reading 5_tasks/taskset_dat/6.dat
+------------------------------------
+task id: 160, (1, 1, 1, 14) wcrt = 3, bcrt = 1
+Task 3 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Infeasible <<<<<
+++++++++++++++++++++++++++++++++++++++++
+Concert exception caught: CPLEX Error  1217: No solution exists.
+
+the number of missed deadline is 0
+Time = 0.0221 sec 
+Constrain satisfied? 1
+
+
+------------------------------------
+task id: 162, (3, 3, 12, 20) wcrt = 35, bcrt = 3
+Task 5 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Optimal <<<<<
+++++++++++++++++++++++++++++++++++++++++
+the number of missed deadline is 5
+Time = 0.322622 sec 
+Constrain satisfied? 0
+
+
+************************************
+Reading 5_tasks/taskset_dat/7.dat
+------------------------------------
+task id: 321, (1, 1, 4, 16) wcrt = 8, bcrt = 1
+Task 4 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Feasible <<<<<
+++++++++++++++++++++++++++++++++++++++++
+the number of missed deadline is 5
+Time = 0.241889 sec 
+Constrain satisfied? 0
+
+
+------------------------------------
+task id: 322, (2, 2, 4, 17) wcrt = 13, bcrt = 2
+Task 5 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Feasible <<<<<
+++++++++++++++++++++++++++++++++++++++++
+the number of missed deadline is 5
+Time = 0.354262 sec 
+Constrain satisfied? 0
+
+
+************************************
+Reading 5_tasks/taskset_dat/8.dat
+------------------------------------
+task id: 430, (5, 5, 12, 14) wcrt = 17, bcrt = 5
+Task 5 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Optimal <<<<<
+++++++++++++++++++++++++++++++++++++++++
+the number of missed deadline is 3
+Time = 0.475977 sec 
+Constrain satisfied? 0
+
+
+************************************
+Reading 5_tasks/taskset_dat/9.dat
+------------------------------------
+task id: 447, (7, 7, 7, 12) wcrt = 10, bcrt = 7
+Task 3 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Feasible <<<<<
+++++++++++++++++++++++++++++++++++++++++
+the number of missed deadline is 3
+Time = 0.0243969 sec 
+Constrain satisfied? 0
+
+
+------------------------------------
+task id: 448, (3, 3, 17, 17) wcrt = 22, bcrt = 3
+Task 4 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Feasible <<<<<
+++++++++++++++++++++++++++++++++++++++++
+the number of missed deadline is 3
+Time = 0.0385499 sec 
+Constrain satisfied? 0
+
+
+------------------------------------
+task id: 449, (1, 1, 13, 18) wcrt = 10008, bcrt = 1
+Task 5 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+taskset9 task5: wcrt is not convergent...
+
+************************************
+Reading 5_tasks/taskset_dat/10.dat
+------------------------------------
+task id: 495, (2, 2, 3, 10) wcrt = 6, bcrt = 2
+Task 4 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Optimal <<<<<
+++++++++++++++++++++++++++++++++++++++++
+the number of missed deadline is 5
+Time = 0.221119 sec 
+Constrain satisfied? 0
+
+
+------------------------------------
+task id: 496, (1, 1, 10, 15) wcrt = 17, bcrt = 1
+Task 5 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Optimal <<<<<
+++++++++++++++++++++++++++++++++++++++++
+the number of missed deadline is 5
+Time = 0.566776 sec 
+Constrain satisfied? 0
+
+
+************************************
+Reading 5_tasks/taskset_dat/11.dat
+------------------------------------
+task id: 538, (3, 3, 8, 15) wcrt = 11, bcrt = 3
+Task 4 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Infeasible <<<<<
+++++++++++++++++++++++++++++++++++++++++
+Concert exception caught: CPLEX Error  1217: No solution exists.
+
+the number of missed deadline is 0
+Time = 0.391634 sec 
+Constrain satisfied? 1
+
+
+------------------------------------
+task id: 539, (2, 2, 18, 19) wcrt = 23, bcrt = 2
+Task 5 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Infeasible <<<<<
+++++++++++++++++++++++++++++++++++++++++
+Concert exception caught: CPLEX Error  1217: No solution exists.
+
+the number of missed deadline is 0
+Time = 0.306636 sec 
+Constrain satisfied? 1
+
+
+************************************
+Reading 5_tasks/taskset_dat/12.dat
+------------------------------------
+task id: 612, (3, 3, 4, 15) wcrt = 7, bcrt = 3
+Task 3 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Feasible <<<<<
+++++++++++++++++++++++++++++++++++++++++
+the number of missed deadline is 3
+Time = 0.0152352 sec 
+Constrain satisfied? 0
+
+
+************************************
+Reading 5_tasks/taskset_dat/13.dat
+------------------------------------
+task id: 689, (6, 6, 11, 11) wcrt = 12, bcrt = 7
+Task 4 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Infeasible <<<<<
+++++++++++++++++++++++++++++++++++++++++
+Concert exception caught: CPLEX Error  1217: No solution exists.
+
+the number of missed deadline is 0
+Time = 0.0168259 sec 
+Constrain satisfied? 1
+
+
+------------------------------------
+task id: 690, (2, 2, 12, 14) wcrt = 10004, bcrt = 2
+Task 5 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+taskset13 task5: wcrt is not convergent...
+
+************************************
+Reading 5_tasks/taskset_dat/14.dat
+------------------------------------
+task id: 706, (6, 6, 9, 20) wcrt = 30, bcrt = 15
+Task 5 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Optimal <<<<<
+++++++++++++++++++++++++++++++++++++++++
+the number of missed deadline is 5
+Time = 0.241399 sec 
+Constrain satisfied? 0
+
+
+************************************
+Reading 5_tasks/taskset_dat/15.dat
+------------------------------------
+task id: 713, (1, 1, 1, 8) wcrt = 2, bcrt = 1
+Task 2 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Infeasible <<<<<
+++++++++++++++++++++++++++++++++++++++++
+Concert exception caught: CPLEX Error  1217: No solution exists.
+
+the number of missed deadline is 0
+Time = 0.00942183 sec 
+Constrain satisfied? 1
+
+
+------------------------------------
+task id: 715, (3, 3, 5, 13) wcrt = 14, bcrt = 3
+Task 4 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Feasible <<<<<
+++++++++++++++++++++++++++++++++++++++++
+the number of missed deadline is 3
+Time = 0.0275412 sec 
+Constrain satisfied? 0
+
+
+------------------------------------
+task id: 716, (1, 1, 3, 14) wcrt = 23, bcrt = 1
+Task 5 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Optimal <<<<<
+++++++++++++++++++++++++++++++++++++++++
+the number of missed deadline is 5
+Time = 0.461627 sec 
+Constrain satisfied? 0
+
+
+************************************
+Reading 5_tasks/taskset_dat/16.dat
+------------------------------------
+task id: 845, (6, 6, 7, 15) wcrt = 10002, bcrt = 9
+Task 5 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+taskset16 task5: wcrt is not convergent...
+
+************************************
+Reading 5_tasks/taskset_dat/17.dat
+------------------------------------
+task id: 850, (1, 1, 8, 17) wcrt = 28, bcrt = 1
+Task 5 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Optimal <<<<<
+++++++++++++++++++++++++++++++++++++++++
+the number of missed deadline is 5
+Time = 0.532876 sec 
+Constrain satisfied? 0
+
+
+************************************
+Reading 5_tasks/taskset_dat/18.dat
+------------------------------------
+task id: 866, (1, 1, 2, 8) wcrt = 3, bcrt = 1
+Task 3 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Infeasible <<<<<
+++++++++++++++++++++++++++++++++++++++++
+Concert exception caught: CPLEX Error  1217: No solution exists.
+
+the number of missed deadline is 0
+Time = 0.0226851 sec 
+Constrain satisfied? 1
+
+
+------------------------------------
+task id: 867, (10, 10, 12, 14) wcrt = 10001, bcrt = 13
+Task 4 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+taskset18 task4: wcrt is not convergent...
+
+------------------------------------
+task id: 868, (1, 1, 1, 18) wcrt = inf, bcrt = 17
+Task 5 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+taskset18 task5: wcrt is not convergent...
+
+************************************
+Reading 5_tasks/taskset_dat/19.dat
+------------------------------------
+task id: 947, (1, 1, 6, 14) wcrt = 7, bcrt = 1
+Task 4 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Feasible <<<<<
+++++++++++++++++++++++++++++++++++++++++
+the number of missed deadline is 3
+Time = 0.0293269 sec 
+Constrain satisfied? 0
+
+
+************************************
+Reading 5_tasks/taskset_dat/20.dat
+------------------------------------
+task id: 1036, (1, 1, 4, 12) wcrt = 6, bcrt = 1
+Task 3 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Infeasible <<<<<
+++++++++++++++++++++++++++++++++++++++++
+Concert exception caught: CPLEX Error  1217: No solution exists.
+
+the number of missed deadline is 0
+Time = 0.0228579 sec 
+Constrain satisfied? 1
+
+
+------------------------------------
+task id: 1037, (1, 1, 4, 12) wcrt = 7, bcrt = 1
+Task 4 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Feasible <<<<<
+++++++++++++++++++++++++++++++++++++++++
+the number of missed deadline is 3
+Time = 0.27489 sec 
+Constrain satisfied? 0
+
+
+------------------------------------
+task id: 1038, (2, 2, 13, 19) wcrt = 18, bcrt = 2
+Task 5 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Infeasible <<<<<
+++++++++++++++++++++++++++++++++++++++++
+Concert exception caught: CPLEX Error  1217: No solution exists.
+
+the number of missed deadline is 0
+Time = 0.39466 sec 
+Constrain satisfied? 1
+
+
+************************************
+Reading 5_tasks/taskset_dat/21.dat
+------------------------------------
+task id: 1176, (3, 3, 6, 15) wcrt = 13, bcrt = 3
+Task 4 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Feasible <<<<<
+++++++++++++++++++++++++++++++++++++++++
+the number of missed deadline is 3
+Time = 0.033886 sec 
+Constrain satisfied? 0
+
+
+------------------------------------
+task id: 1177, (1, 1, 6, 19) wcrt = 14, bcrt = 1
+Task 5 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Feasible <<<<<
+++++++++++++++++++++++++++++++++++++++++
+the number of missed deadline is 4
+Time = 0.804886 sec 
+Constrain satisfied? 0
+
+
+************************************
+Reading 5_tasks/taskset_dat/22.dat
+------------------------------------
+task id: 1238, (3, 3, 4, 18) wcrt = 10012, bcrt = 11
+Task 5 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+taskset22 task5: wcrt is not convergent...
+
+************************************
+Reading 5_tasks/taskset_dat/23.dat
+------------------------------------
+task id: 1242, (6, 6, 14, 17) wcrt = 16, bcrt = 6
+Task 4 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Infeasible <<<<<
+++++++++++++++++++++++++++++++++++++++++
+Concert exception caught: CPLEX Error  1217: No solution exists.
+
+the number of missed deadline is 0
+Time = 0.02969 sec 
+Constrain satisfied? 1
+
+
+------------------------------------
+task id: 1243, (1, 1, 6, 19) wcrt = 29, bcrt = 1
+Task 5 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Optimal <<<<<
+++++++++++++++++++++++++++++++++++++++++
+the number of missed deadline is 5
+Time = 0.512601 sec 
+Constrain satisfied? 0
+
+
+************************************
+Reading 5_tasks/taskset_dat/24.dat
+------------------------------------
+task id: 1303, (1, 1, 1, 6) wcrt = 2, bcrt = 1
+Task 2 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Optimal <<<<<
+++++++++++++++++++++++++++++++++++++++++
+the number of missed deadline is 5
+Time = 0.0144808 sec 
+Constrain satisfied? 0
+
+
+------------------------------------
+task id: 1305, (3, 3, 4, 16) wcrt = 10016, bcrt = 14
+Task 4 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+taskset24 task4: wcrt is not convergent...
+
+------------------------------------
+task id: 1306, (1, 1, 9, 20) wcrt = inf, bcrt = 1
+Task 5 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+taskset24 task5: wcrt is not convergent...
+
+************************************
+Reading 5_tasks/taskset_dat/25.dat
+------------------------------------
+task id: 1373, (2, 2, 2, 7) wcrt = 3, bcrt = 2
+Task 2 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Infeasible <<<<<
+++++++++++++++++++++++++++++++++++++++++
+Concert exception caught: CPLEX Error  1217: No solution exists.
+
+the number of missed deadline is 0
+Time = 0.01226 sec 
+Constrain satisfied? 1
+
+
+------------------------------------
+task id: 1375, (1, 1, 1, 15) wcrt = 5, bcrt = 1
+Task 4 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Feasible <<<<<
+++++++++++++++++++++++++++++++++++++++++
+the number of missed deadline is 3
+Time = 0.037966 sec 
+Constrain satisfied? 0
+
+
+************************************
+Reading 5_tasks/taskset_dat/26.dat
+------------------------------------
+task id: 1526, (1, 1, 1, 9) wcrt = 7, bcrt = 1
+Task 3 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Feasible <<<<<
+++++++++++++++++++++++++++++++++++++++++
+the number of missed deadline is 4
+Time = 0.0243509 sec 
+Constrain satisfied? 0
+
+
+------------------------------------
+task id: 1527, (1, 1, 7, 10) wcrt = 17, bcrt = 1
+Task 4 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Feasible <<<<<
+++++++++++++++++++++++++++++++++++++++++
+the number of missed deadline is 5
+Time = 0.298525 sec 
+Constrain satisfied? 0
+
+
+------------------------------------
+task id: 1528, (2, 2, 5, 13) wcrt = 10066, bcrt = 2
+Task 5 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+taskset26 task5: wcrt is not convergent...
+
+************************************
+Reading 5_tasks/taskset_dat/27.dat
+------------------------------------
+task id: 1552, (1, 1, 1, 10) wcrt = 5, bcrt = 1
+Task 3 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Optimal <<<<<
+++++++++++++++++++++++++++++++++++++++++
+the number of missed deadline is 5
+Time = 0.0292671 sec 
+Constrain satisfied? 0
+
+
+------------------------------------
+task id: 1554, (5, 5, 10, 18) wcrt = 10001, bcrt = 11
+Task 5 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+taskset27 task5: wcrt is not convergent...
+
+************************************
+Reading 5_tasks/taskset_dat/28.dat
+------------------------------------
+task id: 1622, (8, 8, 9, 12) wcrt = 12, bcrt = 10
+Task 3 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Optimal <<<<<
+++++++++++++++++++++++++++++++++++++++++
+the number of missed deadline is 5
+Time = 0.0148828 sec 
+Constrain satisfied? 0
+
+
+------------------------------------
+task id: 1623, (1, 1, 3, 12) wcrt = 10008, bcrt = 1
+Task 4 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+taskset28 task4: wcrt is not convergent...
+
+------------------------------------
+task id: 1624, (1, 1, 8, 17) wcrt = inf, bcrt = 13
+Task 5 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+taskset28 task5: wcrt is not convergent...
+
+************************************
+Reading 5_tasks/taskset_dat/29.dat
+------------------------------------
+task id: 1635, (2, 2, 3, 16) wcrt = 6, bcrt = 2
+Task 4 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Optimal <<<<<
+++++++++++++++++++++++++++++++++++++++++
+the number of missed deadline is 5
+Time = 0.156946 sec 
+Constrain satisfied? 0
+
+
+------------------------------------
+task id: 1636, (6, 6, 10, 17) wcrt = 14, bcrt = 6
+Task 5 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Feasible <<<<<
+++++++++++++++++++++++++++++++++++++++++
+the number of missed deadline is 5
+Time = 0.26023 sec 
+Constrain satisfied? 0
+
+
+************************************
+Reading 5_tasks/taskset_dat/30.dat
+------------------------------------
+task id: 1789, (1, 1, 4, 14) wcrt = 6, bcrt = 1
+Task 3 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Infeasible <<<<<
+++++++++++++++++++++++++++++++++++++++++
+Concert exception caught: CPLEX Error  1217: No solution exists.
+
+the number of missed deadline is 0
+Time = 0.016881 sec 
+Constrain satisfied? 1
+
+
+------------------------------------
+task id: 1791, (5, 5, 11, 20) wcrt = 10006, bcrt = 5
+Task 5 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+taskset30 task5: wcrt is not convergent...
+
+************************************
+Reading 5_tasks/taskset_dat/31.dat
+------------------------------------
+task id: 1881, (1, 1, 2, 15) wcrt = 4, bcrt = 1
+Task 3 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Infeasible <<<<<
+++++++++++++++++++++++++++++++++++++++++
+Concert exception caught: CPLEX Error  1217: No solution exists.
+
+the number of missed deadline is 0
+Time = 0.010339 sec 
+Constrain satisfied? 1
+
+
+------------------------------------
+task id: 1883, (2, 2, 15, 16) wcrt = 24, bcrt = 2
+Task 5 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Infeasible <<<<<
+++++++++++++++++++++++++++++++++++++++++
+Concert exception caught: CPLEX Error  1217: No solution exists.
+
+the number of missed deadline is 0
+Time = 0.424327 sec 
+Constrain satisfied? 1
+
+
+************************************
+Reading 5_tasks/taskset_dat/32.dat
+------------------------------------
+task id: 2056, (8, 8, 9, 13) wcrt = 10, bcrt = 9
+Task 2 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Feasible <<<<<
+++++++++++++++++++++++++++++++++++++++++
+the number of missed deadline is 3
+Time = 0.0121682 sec 
+Constrain satisfied? 0
+
+
+------------------------------------
+task id: 2059, (1, 1, 13, 18) wcrt = 10003, bcrt = 1
+Task 5 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+taskset32 task5: wcrt is not convergent...
+
+************************************
+Reading 5_tasks/taskset_dat/33.dat
+------------------------------------
+task id: 2103, (7, 7, 7, 17) wcrt = 10002, bcrt = 17
+Task 5 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+taskset33 task5: wcrt is not convergent...
+
+************************************
+Reading 5_tasks/taskset_dat/34.dat
+------------------------------------
+task id: 2108, (4, 4, 6, 18) wcrt = 18, bcrt = 4
+Task 5 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Feasible <<<<<
+++++++++++++++++++++++++++++++++++++++++
+the number of missed deadline is 5
+Time = 0.404327 sec 
+Constrain satisfied? 0
+
+
+************************************
+Reading 5_tasks/taskset_dat/35.dat
+------------------------------------
+task id: 2148, (2, 2, 5, 14) wcrt = 12, bcrt = 2
+Task 4 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Optimal <<<<<
+++++++++++++++++++++++++++++++++++++++++
+the number of missed deadline is 5
+Time = 0.224277 sec 
+Constrain satisfied? 0
+
+
+------------------------------------
+task id: 2149, (2, 2, 6, 18) wcrt = 31, bcrt = 2
+Task 5 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Optimal <<<<<
+++++++++++++++++++++++++++++++++++++++++
+the number of missed deadline is 5
+Time = 0.370631 sec 
+Constrain satisfied? 0
+
+
+************************************
+Reading 5_tasks/taskset_dat/36.dat
+------------------------------------
+task id: 2182, (1, 1, 3, 16) wcrt = 9, bcrt = 1
+Task 4 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Optimal <<<<<
+++++++++++++++++++++++++++++++++++++++++
+the number of missed deadline is 5
+Time = 0.446156 sec 
+Constrain satisfied? 0
+
+
+------------------------------------
+task id: 2183, (3, 3, 9, 20) wcrt = 14, bcrt = 3
+Task 5 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Feasible <<<<<
+++++++++++++++++++++++++++++++++++++++++
+the number of missed deadline is 5
+Time = 0.442766 sec 
+Constrain satisfied? 0
+
+
+************************************
+Reading 5_tasks/taskset_dat/37.dat
+************************************
+Reading 5_tasks/taskset_dat/38.dat
+------------------------------------
+task id: 2291, (1, 1, 1, 7) wcrt = 2, bcrt = 1
+Task 2 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Infeasible <<<<<
+++++++++++++++++++++++++++++++++++++++++
+Concert exception caught: CPLEX Error  1217: No solution exists.
+
+the number of missed deadline is 0
+Time = 0.00885987 sec 
+Constrain satisfied? 1
+
+
+------------------------------------
+task id: 2293, (2, 2, 7, 14) wcrt = 10, bcrt = 2
+Task 4 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Optimal <<<<<
+++++++++++++++++++++++++++++++++++++++++
+the number of missed deadline is 3
+Time = 0.32986 sec 
+Constrain satisfied? 0
+
+
+------------------------------------
+task id: 2294, (6, 6, 14, 20) wcrt = 10008, bcrt = 17
+Task 5 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+taskset38 task5: wcrt is not convergent...
+
+************************************
+Reading 5_tasks/taskset_dat/39.dat
+------------------------------------
+task id: 2393, (3, 3, 3, 17) wcrt = 6, bcrt = 3
+Task 4 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Feasible <<<<<
+++++++++++++++++++++++++++++++++++++++++
+the number of missed deadline is 3
+Time = 0.0300879 sec 
+Constrain satisfied? 0
+
+
+------------------------------------
+task id: 2394, (11, 11, 16, 20) wcrt = 10005, bcrt = 19
+Task 5 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+taskset39 task5: wcrt is not convergent...
+
+************************************
+Reading 5_tasks/taskset_dat/40.dat
+------------------------------------
+task id: 2521, (5, 5, 5, 16) wcrt = 7, bcrt = 5
+Task 3 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Feasible <<<<<
+++++++++++++++++++++++++++++++++++++++++
+the number of missed deadline is 3
+Time = 0.0216551 sec 
+Constrain satisfied? 0
+
+
+------------------------------------
+task id: 2523, (7, 7, 19, 19) wcrt = 26, bcrt = 8
+Task 5 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Optimal <<<<<
+++++++++++++++++++++++++++++++++++++++++
+the number of missed deadline is 3
+Time = 0.45695 sec 
+Constrain satisfied? 0
+
+
+************************************
+Reading 5_tasks/taskset_dat/41.dat
+------------------------------------
+task id: 2643, (2, 2, 2, 8) wcrt = 3, bcrt = 2
+Task 2 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Infeasible <<<<<
+++++++++++++++++++++++++++++++++++++++++
+Concert exception caught: CPLEX Error  1217: No solution exists.
+
+the number of missed deadline is 0
+Time = 0.00918198 sec 
+Constrain satisfied? 1
+
+
+------------------------------------
+task id: 2645, (2, 2, 2, 15) wcrt = 8, bcrt = 2
+Task 4 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Optimal <<<<<
+++++++++++++++++++++++++++++++++++++++++
+the number of missed deadline is 5
+Time = 0.283105 sec 
+Constrain satisfied? 0
+
+
+------------------------------------
+task id: 2646, (3, 3, 10, 20) wcrt = 21, bcrt = 3
+Task 5 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Feasible <<<<<
+++++++++++++++++++++++++++++++++++++++++
+the number of missed deadline is 4
+Time = 0.819649 sec 
+Constrain satisfied? 0
+
+
+************************************
+Reading 5_tasks/taskset_dat/42.dat
+------------------------------------
+task id: 2818, (11, 11, 13, 19) wcrt = 18, bcrt = 14
+Task 4 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Optimal <<<<<
+++++++++++++++++++++++++++++++++++++++++
+the number of missed deadline is 5
+Time = 0.156214 sec 
+Constrain satisfied? 0
+
+
+------------------------------------
+task id: 2819, (5, 5, 9, 19) wcrt = 10013, bcrt = 5
+Task 5 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+taskset42 task5: wcrt is not convergent...
+
+************************************
+Reading 5_tasks/taskset_dat/43.dat
+------------------------------------
+task id: 2855, (3, 3, 3, 14) wcrt = 11, bcrt = 3
+Task 4 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Feasible <<<<<
+++++++++++++++++++++++++++++++++++++++++
+the number of missed deadline is 4
+Time = 0.0241611 sec 
+Constrain satisfied? 0
+
+
+------------------------------------
+task id: 2856, (1, 1, 6, 15) wcrt = 12, bcrt = 1
+Task 5 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Feasible <<<<<
+++++++++++++++++++++++++++++++++++++++++
+the number of missed deadline is 5
+Time = 0.371878 sec 
+Constrain satisfied? 0
+
+
+************************************
+Reading 5_tasks/taskset_dat/44.dat
+------------------------------------
+task id: 2891, (2, 2, 2, 6) wcrt = 3, bcrt = 2
+Task 2 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Optimal <<<<<
+++++++++++++++++++++++++++++++++++++++++
+the number of missed deadline is 5
+Time = 0.00932097 sec 
+Constrain satisfied? 0
+
+
+------------------------------------
+task id: 2893, (1, 1, 1, 7) wcrt = 6, bcrt = 1
+Task 4 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Feasible <<<<<
+++++++++++++++++++++++++++++++++++++++++
+the number of missed deadline is 5
+Time = 0.263469 sec 
+Constrain satisfied? 0
+
+
+------------------------------------
+task id: 2894, (1, 1, 10, 15) wcrt = 28, bcrt = 1
+Task 5 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Optimal <<<<<
+++++++++++++++++++++++++++++++++++++++++
+the number of missed deadline is 5
+Time = 1.51857 sec 
+Constrain satisfied? 0
+
+
+************************************
+Reading 5_tasks/taskset_dat/45.dat
+------------------------------------
+task id: 2960, (12, 12, 13, 19) wcrt = 14, bcrt = 12
+Task 3 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Feasible <<<<<
+++++++++++++++++++++++++++++++++++++++++
+the number of missed deadline is 3
+Time = 0.0176661 sec 
+Constrain satisfied? 0
+
+
+------------------------------------
+task id: 2961, (1, 1, 8, 20) wcrt = 15, bcrt = 1
+Task 4 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Optimal <<<<<
+++++++++++++++++++++++++++++++++++++++++
+the number of missed deadline is 5
+Time = 0.0467908 sec 
+Constrain satisfied? 0
+
+
+------------------------------------
+task id: 2962, (1, 1, 11, 20) wcrt = 16, bcrt = 1
+Task 5 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Feasible <<<<<
+++++++++++++++++++++++++++++++++++++++++
+the number of missed deadline is 4
+Time = 0.0509949 sec 
+Constrain satisfied? 0
+
+
+************************************
+Reading 5_tasks/taskset_dat/46.dat
+------------------------------------
+task id: 3130, (10, 10, 12, 15) wcrt = 14, bcrt = 12
+Task 3 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Feasible <<<<<
+++++++++++++++++++++++++++++++++++++++++
+the number of missed deadline is 3
+Time = 0.0119441 sec 
+Constrain satisfied? 0
+
+
+------------------------------------
+task id: 3131, (3, 3, 15, 19) wcrt = 10004, bcrt = 3
+Task 4 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+taskset46 task4: wcrt is not convergent...
+
+------------------------------------
+task id: 3132, (1, 1, 10, 20) wcrt = inf, bcrt = 1
+Task 5 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+taskset46 task5: wcrt is not convergent...
+
+************************************
+Reading 5_tasks/taskset_dat/47.dat
+------------------------------------
+task id: 3158, (1, 1, 4, 13) wcrt = 7, bcrt = 1
+Task 3 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Optimal <<<<<
+++++++++++++++++++++++++++++++++++++++++
+the number of missed deadline is 3
+Time = 0.134181 sec 
+Constrain satisfied? 0
+
+
+------------------------------------
+task id: 3159, (1, 1, 5, 15) wcrt = 8, bcrt = 1
+Task 4 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Infeasible <<<<<
+++++++++++++++++++++++++++++++++++++++++
+Concert exception caught: CPLEX Error  1217: No solution exists.
+
+the number of missed deadline is 0
+Time = 0.29051 sec 
+Constrain satisfied? 1
+
+
+------------------------------------
+task id: 3160, (7, 7, 16, 17) wcrt = 10007, bcrt = 16
+Task 5 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+taskset47 task5: wcrt is not convergent...
+
+************************************
+Reading 5_tasks/taskset_dat/48.dat
+------------------------------------
+task id: 3306, (1, 1, 5, 15) wcrt = 10, bcrt = 1
+Task 5 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Feasible <<<<<
+++++++++++++++++++++++++++++++++++++++++
+the number of missed deadline is 4
+Time = 0.465936 sec 
+Constrain satisfied? 0
+
+
+************************************
+Reading 5_tasks/taskset_dat/49.dat
+------------------------------------
+task id: 3345, (3, 3, 5, 18) wcrt = 7, bcrt = 3
+Task 2 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Feasible <<<<<
+++++++++++++++++++++++++++++++++++++++++
+the number of missed deadline is 3
+Time = 0.010798 sec 
+Constrain satisfied? 0
+
+
+------------------------------------
+task id: 3346, (2, 2, 7, 18) wcrt = 9, bcrt = 2
+Task 3 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Feasible <<<<<
+++++++++++++++++++++++++++++++++++++++++
+the number of missed deadline is 3
+Time = 0.0124118 sec 
+Constrain satisfied? 0
+
+
+------------------------------------
+task id: 3348, (3, 3, 14, 20) wcrt = 17, bcrt = 3
+Task 5 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Optimal <<<<<
+++++++++++++++++++++++++++++++++++++++++
+the number of missed deadline is 5
+Time = 0.337339 sec 
+Constrain satisfied? 0
+
+
+************************************
+Reading 5_tasks/taskset_dat/50.dat
+------------------------------------
+task id: 3638, (2, 2, 2, 9) wcrt = 3, bcrt = 2
+Task 2 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Optimal <<<<<
+++++++++++++++++++++++++++++++++++++++++
+the number of missed deadline is 3
+Time = 0.00876284 sec 
+Constrain satisfied? 0
+
+
+------------------------------------
+task id: 3640, (3, 3, 4, 15) wcrt = 15, bcrt = 3
+Task 4 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Feasible <<<<<
+++++++++++++++++++++++++++++++++++++++++
+the number of missed deadline is 3
+Time = 0.0217669 sec 
+Constrain satisfied? 0
+
+
+------------------------------------
+task id: 3641, (1, 1, 3, 17) wcrt = 30, bcrt = 1
+Task 5 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Optimal <<<<<
+++++++++++++++++++++++++++++++++++++++++
+the number of missed deadline is 5
+Time = 0.481157 sec 
+Constrain satisfied? 0
+
+
+************************************
+Reading 5_tasks/taskset_dat/51.dat
+------------------------------------
+task id: 3754, (8, 8, 11, 16) wcrt = 10001, bcrt = 13
+Task 5 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+taskset51 task5: wcrt is not convergent...
+
+************************************
+Reading 5_tasks/taskset_dat/52.dat
+------------------------------------
+task id: 3756, (1, 1, 1, 6) wcrt = 3, bcrt = 1
+Task 2 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Infeasible <<<<<
+++++++++++++++++++++++++++++++++++++++++
+Concert exception caught: CPLEX Error  1217: No solution exists.
+
+the number of missed deadline is 0
+Time = 0.013413 sec 
+Constrain satisfied? 1
+
+
+------------------------------------
+task id: 3759, (4, 4, 14, 18) wcrt = 20, bcrt = 7
+Task 5 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Optimal <<<<<
+++++++++++++++++++++++++++++++++++++++++
+the number of missed deadline is 5
+Time = 0.451825 sec 
+Constrain satisfied? 0
+
+
+************************************
+Reading 5_tasks/taskset_dat/53.dat
+------------------------------------
+task id: 3813, (2, 2, 3, 7) wcrt = 4, bcrt = 2
+Task 2 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Infeasible <<<<<
+++++++++++++++++++++++++++++++++++++++++
+Concert exception caught: CPLEX Error  1217: No solution exists.
+
+the number of missed deadline is 0
+Time = 0.0159111 sec 
+Constrain satisfied? 1
+
+
+------------------------------------
+task id: 3814, (1, 1, 3, 15) wcrt = 5, bcrt = 1
+Task 3 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Feasible <<<<<
+++++++++++++++++++++++++++++++++++++++++
+the number of missed deadline is 4
+Time = 0.17498 sec 
+Constrain satisfied? 0
+
+
+------------------------------------
+task id: 3815, (1, 1, 9, 15) wcrt = 10, bcrt = 1
+Task 4 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Infeasible <<<<<
+++++++++++++++++++++++++++++++++++++++++
+Concert exception caught: CPLEX Error  1217: No solution exists.
+
+the number of missed deadline is 0
+Time = 0.0195 sec 
+Constrain satisfied? 1
+
+
+------------------------------------
+task id: 3816, (1, 1, 3, 18) wcrt = 13, bcrt = 1
+Task 5 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Feasible <<<<<
+++++++++++++++++++++++++++++++++++++++++
+the number of missed deadline is 4
+Time = 0.773173 sec 
+Constrain satisfied? 0
+
+
+************************************
+Reading 5_tasks/taskset_dat/54.dat
+------------------------------------
+task id: 3985, (1, 1, 4, 9) wcrt = 5, bcrt = 1
+Task 4 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Infeasible <<<<<
+++++++++++++++++++++++++++++++++++++++++
+Concert exception caught: CPLEX Error  1217: No solution exists.
+
+the number of missed deadline is 0
+Time = 0.0273871 sec 
+Constrain satisfied? 1
+
+
+************************************
+Reading 5_tasks/taskset_dat/55.dat
+------------------------------------
+task id: 4034, (6, 6, 7, 17) wcrt = 12, bcrt = 7
+Task 4 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Optimal <<<<<
+++++++++++++++++++++++++++++++++++++++++
+the number of missed deadline is 5
+Time = 0.198023 sec 
+Constrain satisfied? 0
+
+
+------------------------------------
+task id: 4035, (7, 7, 17, 19) wcrt = 10002, bcrt = 19
+Task 5 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+taskset55 task5: wcrt is not convergent...
+
+************************************
+Reading 5_tasks/taskset_dat/56.dat
+------------------------------------
+task id: 4099, (2, 2, 5, 14) wcrt = 6, bcrt = 2
+Task 4 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Optimal <<<<<
+++++++++++++++++++++++++++++++++++++++++
+the number of missed deadline is 3
+Time = 0.026937 sec 
+Constrain satisfied? 0
+
+
+------------------------------------
+task id: 4100, (10, 10, 12, 19) wcrt = 10001, bcrt = 17
+Task 5 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+taskset56 task5: wcrt is not convergent...
+
+************************************
+Reading 5_tasks/taskset_dat/57.dat
+------------------------------------
+task id: 4212, (1, 1, 3, 13) wcrt = 9, bcrt = 1
+Task 5 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Feasible <<<<<
+++++++++++++++++++++++++++++++++++++++++
+the number of missed deadline is 4
+Time = 0.567932 sec 
+Constrain satisfied? 0
+
+
+************************************
+Reading 5_tasks/taskset_dat/58.dat
+------------------------------------
+task id: 4248, (12, 12, 16, 16) wcrt = 10002, bcrt = 14
+Task 4 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+taskset58 task4: wcrt is not convergent...
+
+------------------------------------
+task id: 4249, (3, 3, 11, 16) wcrt = inf, bcrt = 3
+Task 5 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+taskset58 task5: wcrt is not convergent...
+
+************************************
+Reading 5_tasks/taskset_dat/59.dat
+------------------------------------
+task id: 4252, (4, 4, 5, 12) wcrt = 7, bcrt = 4
+Task 3 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Feasible <<<<<
+++++++++++++++++++++++++++++++++++++++++
+the number of missed deadline is 3
+Time = 0.0154262 sec 
+Constrain satisfied? 0
+
+
+------------------------------------
+task id: 4254, (8, 8, 14, 17) wcrt = 10007, bcrt = 17
+Task 5 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+taskset59 task5: wcrt is not convergent...
+
+************************************
+Reading 5_tasks/taskset_dat/60.dat
+------------------------------------
+task id: 4326, (8, 8, 19, 19) wcrt = 25, bcrt = 8
+Task 5 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Feasible <<<<<
+++++++++++++++++++++++++++++++++++++++++
+the number of missed deadline is 4
+Time = 0.313084 sec 
+Constrain satisfied? 0
+
+
+************************************
+Reading 5_tasks/taskset_dat/61.dat
+------------------------------------
+task id: 4336, (7, 7, 17, 19) wcrt = 25, bcrt = 12
+Task 5 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Optimal <<<<<
+++++++++++++++++++++++++++++++++++++++++
+the number of missed deadline is 5
+Time = 0.302449 sec 
+Constrain satisfied? 0
+
+
+************************************
+Reading 5_tasks/taskset_dat/62.dat
+************************************
+Reading 5_tasks/taskset_dat/63.dat
+------------------------------------
+task id: 4348, (1, 1, 1, 18) wcrt = 2, bcrt = 1
+Task 2 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Infeasible <<<<<
+++++++++++++++++++++++++++++++++++++++++
+Concert exception caught: CPLEX Error  1217: No solution exists.
+
+the number of missed deadline is 0
+Time = 0.0119519 sec 
+Constrain satisfied? 1
+
+
+------------------------------------
+task id: 4349, (10, 10, 12, 19) wcrt = 13, bcrt = 11
+Task 3 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Feasible <<<<<
+++++++++++++++++++++++++++++++++++++++++
+the number of missed deadline is 3
+Time = 0.0176802 sec 
+Constrain satisfied? 0
+
+
+------------------------------------
+task id: 4351, (4, 4, 19, 20) wcrt = 32, bcrt = 4
+Task 5 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Infeasible <<<<<
+++++++++++++++++++++++++++++++++++++++++
+Concert exception caught: CPLEX Error  1217: No solution exists.
+
+the number of missed deadline is 0
+Time = 0.378893 sec 
+Constrain satisfied? 1
+
+
+************************************
+Reading 5_tasks/taskset_dat/64.dat
+------------------------------------
+task id: 4670, (6, 6, 13, 19) wcrt = 28, bcrt = 7
+Task 5 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Optimal <<<<<
+++++++++++++++++++++++++++++++++++++++++
+the number of missed deadline is 5
+Time = 0.275292 sec 
+Constrain satisfied? 0
+
+
+************************************
+Reading 5_tasks/taskset_dat/65.dat
+------------------------------------
+task id: 4678, (1, 1, 3, 11) wcrt = 9, bcrt = 1
+Task 3 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Feasible <<<<<
+++++++++++++++++++++++++++++++++++++++++
+the number of missed deadline is 4
+Time = 0.176248 sec 
+Constrain satisfied? 0
+
+
+------------------------------------
+task id: 4679, (1, 1, 2, 15) wcrt = 10005, bcrt = 1
+Task 4 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+taskset65 task4: wcrt is not convergent...
+
+------------------------------------
+task id: 4680, (1, 1, 16, 18) wcrt = inf, bcrt = 1
+Task 5 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+taskset65 task5: wcrt is not convergent...
+
+************************************
+Reading 5_tasks/taskset_dat/66.dat
+------------------------------------
+task id: 4690, (1, 1, 1, 10) wcrt = 2, bcrt = 1
+Task 2 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Infeasible <<<<<
+++++++++++++++++++++++++++++++++++++++++
+Concert exception caught: CPLEX Error  1217: No solution exists.
+
+the number of missed deadline is 0
+Time = 0.00824714 sec 
+Constrain satisfied? 1
+
+
+------------------------------------
+task id: 4693, (6, 6, 10, 16) wcrt = 10002, bcrt = 11
+Task 5 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+taskset66 task5: wcrt is not convergent...
+
+************************************
+Reading 5_tasks/taskset_dat/67.dat
+************************************
+Reading 5_tasks/taskset_dat/68.dat
+************************************
+Reading 5_tasks/taskset_dat/69.dat
+------------------------------------
+task id: 4826, (2, 2, 5, 16) wcrt = 8, bcrt = 2
+Task 3 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Optimal <<<<<
+++++++++++++++++++++++++++++++++++++++++
+the number of missed deadline is 5
+Time = 0.032495 sec 
+Constrain satisfied? 0
+
+
+------------------------------------
+task id: 4827, (1, 1, 9, 18) wcrt = 15, bcrt = 1
+Task 4 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Optimal <<<<<
+++++++++++++++++++++++++++++++++++++++++
+the number of missed deadline is 3
+Time = 0.28755 sec 
+Constrain satisfied? 0
+
+
+------------------------------------
+task id: 4828, (1, 1, 10, 19) wcrt = 16, bcrt = 1
+Task 5 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Optimal <<<<<
+++++++++++++++++++++++++++++++++++++++++
+the number of missed deadline is 4
+Time = 0.467761 sec 
+Constrain satisfied? 0
+
+
+************************************
+Reading 5_tasks/taskset_dat/70.dat
+------------------------------------
+task id: 4912, (5, 5, 11, 14) wcrt = 12, bcrt = 7
+Task 4 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Infeasible <<<<<
+++++++++++++++++++++++++++++++++++++++++
+Concert exception caught: CPLEX Error  1217: No solution exists.
+
+the number of missed deadline is 0
+Time = 0.0272908 sec 
+Constrain satisfied? 1
+
+
+------------------------------------
+task id: 4913, (3, 3, 6, 18) wcrt = 10005, bcrt = 3
+Task 5 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+taskset70 task5: wcrt is not convergent...
+
+************************************
+Reading 5_tasks/taskset_dat/71.dat
+------------------------------------
+task id: 4942, (3, 3, 4, 12) wcrt = 5, bcrt = 3
+Task 3 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Feasible <<<<<
+++++++++++++++++++++++++++++++++++++++++
+the number of missed deadline is 3
+Time = 0.0165601 sec 
+Constrain satisfied? 0
+
+
+------------------------------------
+task id: 4943, (3, 3, 8, 19) wcrt = 9, bcrt = 3
+Task 4 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Infeasible <<<<<
+++++++++++++++++++++++++++++++++++++++++
+Concert exception caught: CPLEX Error  1217: No solution exists.
+
+the number of missed deadline is 0
+Time = 0.0315628 sec 
+Constrain satisfied? 1
+
+
+************************************
+Reading 5_tasks/taskset_dat/72.dat
+------------------------------------
+task id: 5124, (1, 1, 1, 19) wcrt = 23, bcrt = 1
+Task 5 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Optimal <<<<<
+++++++++++++++++++++++++++++++++++++++++
+the number of missed deadline is 5
+Time = 0.357014 sec 
+Constrain satisfied? 0
+
+
+************************************
+Reading 5_tasks/taskset_dat/73.dat
+------------------------------------
+task id: 5139, (1, 1, 1, 10) wcrt = 2, bcrt = 1
+Task 2 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Infeasible <<<<<
+++++++++++++++++++++++++++++++++++++++++
+Concert exception caught: CPLEX Error  1217: No solution exists.
+
+the number of missed deadline is 0
+Time = 0.0135169 sec 
+Constrain satisfied? 1
+
+
+------------------------------------
+task id: 5140, (1, 1, 2, 12) wcrt = 3, bcrt = 1
+Task 3 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Infeasible <<<<<
+++++++++++++++++++++++++++++++++++++++++
+Concert exception caught: CPLEX Error  1217: No solution exists.
+
+the number of missed deadline is 0
+Time = 0.015368 sec 
+Constrain satisfied? 1
+
+
+------------------------------------
+task id: 5142, (9, 9, 11, 18) wcrt = 18, bcrt = 13
+Task 5 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Optimal <<<<<
+++++++++++++++++++++++++++++++++++++++++
+the number of missed deadline is 5
+Time = 0.272772 sec 
+Constrain satisfied? 0
+
+
+************************************
+Reading 5_tasks/taskset_dat/74.dat
+------------------------------------
+task id: 5402, (2, 2, 14, 19) wcrt = 17, bcrt = 2
+Task 5 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Optimal <<<<<
+++++++++++++++++++++++++++++++++++++++++
+the number of missed deadline is 4
+Time = 0.332124 sec 
+Constrain satisfied? 0
+
+
+************************************
+Reading 5_tasks/taskset_dat/75.dat
+------------------------------------
+task id: 5423, (5, 5, 10, 17) wcrt = 26, bcrt = 5
+Task 5 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Feasible <<<<<
+++++++++++++++++++++++++++++++++++++++++
+the number of missed deadline is 3
+Time = 0.060487 sec 
+Constrain satisfied? 0
+
+
+************************************
+Reading 5_tasks/taskset_dat/76.dat
+------------------------------------
+task id: 5432, (9, 9, 13, 13) wcrt = 10001, bcrt = 13
+Task 4 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+taskset76 task4: wcrt is not convergent...
+
+------------------------------------
+task id: 5433, (1, 1, 3, 16) wcrt = inf, bcrt = 14
+Task 5 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+taskset76 task5: wcrt is not convergent...
+
+************************************
+Reading 5_tasks/taskset_dat/77.dat
+------------------------------------
+task id: 5436, (4, 4, 4, 11) wcrt = 6, bcrt = 4
+Task 3 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Feasible <<<<<
+++++++++++++++++++++++++++++++++++++++++
+the number of missed deadline is 3
+Time = 0.0167899 sec 
+Constrain satisfied? 0
+
+
+------------------------------------
+task id: 5437, (5, 5, 10, 16) wcrt = 18, bcrt = 5
+Task 4 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Feasible <<<<<
+++++++++++++++++++++++++++++++++++++++++
+the number of missed deadline is 3
+Time = 0.029094 sec 
+Constrain satisfied? 0
+
+
+------------------------------------
+task id: 5438, (1, 1, 8, 20) wcrt = 63, bcrt = 1
+Task 5 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Optimal <<<<<
+++++++++++++++++++++++++++++++++++++++++
+the number of missed deadline is 5
+Time = 0.476194 sec 
+Constrain satisfied? 0
+
+
+************************************
+Reading 5_tasks/taskset_dat/78.dat
+------------------------------------
+task id: 5515, (1, 1, 1, 8) wcrt = 2, bcrt = 1
+Task 2 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Infeasible <<<<<
+++++++++++++++++++++++++++++++++++++++++
+Concert exception caught: CPLEX Error  1217: No solution exists.
+
+the number of missed deadline is 0
+Time = 0.0113652 sec 
+Constrain satisfied? 1
+
+
+------------------------------------
+task id: 5518, (10, 10, 13, 20) wcrt = 10012, bcrt = 20
+Task 5 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+taskset78 task5: wcrt is not convergent...
+
+************************************
+Reading 5_tasks/taskset_dat/79.dat
+------------------------------------
+task id: 5605, (4, 4, 4, 14) wcrt = 6, bcrt = 4
+Task 3 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Feasible <<<<<
+++++++++++++++++++++++++++++++++++++++++
+the number of missed deadline is 3
+Time = 0.01632 sec 
+Constrain satisfied? 0
+
+
+------------------------------------
+task id: 5606, (1, 1, 2, 16) wcrt = 7, bcrt = 1
+Task 4 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Feasible <<<<<
+++++++++++++++++++++++++++++++++++++++++
+the number of missed deadline is 4
+Time = 0.188188 sec 
+Constrain satisfied? 0
+
+
+------------------------------------
+task id: 5607, (7, 7, 14, 18) wcrt = 21, bcrt = 7
+Task 5 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Optimal <<<<<
+++++++++++++++++++++++++++++++++++++++++
+the number of missed deadline is 5
+Time = 0.45793 sec 
+Constrain satisfied? 0
+
+
+************************************
+Reading 5_tasks/taskset_dat/80.dat
+------------------------------------
+task id: 5847, (1, 1, 5, 15) wcrt = 9, bcrt = 1
+Task 3 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Feasible <<<<<
+++++++++++++++++++++++++++++++++++++++++
+the number of missed deadline is 3
+Time = 0.02826 sec 
+Constrain satisfied? 0
+
+
+------------------------------------
+task id: 5848, (1, 1, 10, 15) wcrt = 11, bcrt = 1
+Task 4 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Infeasible <<<<<
+++++++++++++++++++++++++++++++++++++++++
+Concert exception caught: CPLEX Error  1217: No solution exists.
+
+the number of missed deadline is 0
+Time = 0.019558 sec 
+Constrain satisfied? 1
+
+
+------------------------------------
+task id: 5849, (4, 4, 6, 17) wcrt = 15, bcrt = 4
+Task 5 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Optimal <<<<<
+++++++++++++++++++++++++++++++++++++++++
+the number of missed deadline is 5
+Time = 0.262858 sec 
+Constrain satisfied? 0
+
+
+************************************
+Reading 5_tasks/taskset_dat/81.dat
+------------------------------------
+task id: 6010, (1, 1, 1, 5) wcrt = 2, bcrt = 1
+Task 2 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Optimal <<<<<
+++++++++++++++++++++++++++++++++++++++++
+the number of missed deadline is 5
+Time = 0.00855589 sec 
+Constrain satisfied? 0
+
+
+------------------------------------
+task id: 6011, (1, 1, 2, 6) wcrt = 3, bcrt = 1
+Task 3 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Infeasible <<<<<
+++++++++++++++++++++++++++++++++++++++++
+Concert exception caught: CPLEX Error  1217: No solution exists.
+
+the number of missed deadline is 0
+Time = 0.0126009 sec 
+Constrain satisfied? 1
+
+
+------------------------------------
+task id: 6013, (2, 2, 8, 15) wcrt = 10, bcrt = 2
+Task 5 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Optimal <<<<<
+++++++++++++++++++++++++++++++++++++++++
+the number of missed deadline is 5
+Time = 0.35498 sec 
+Constrain satisfied? 0
+
+
+************************************
+Reading 5_tasks/taskset_dat/82.dat
+------------------------------------
+task id: 6131, (1, 1, 2, 11) wcrt = 8, bcrt = 1
+Task 4 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Optimal <<<<<
+++++++++++++++++++++++++++++++++++++++++
+the number of missed deadline is 5
+Time = 0.154262 sec 
+Constrain satisfied? 0
+
+
+------------------------------------
+task id: 6132, (3, 3, 4, 14) wcrt = 10001, bcrt = 3
+Task 5 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+taskset82 task5: wcrt is not convergent...
+
+************************************
+Reading 5_tasks/taskset_dat/83.dat
+------------------------------------
+task id: 6169, (1, 1, 1, 7) wcrt = 2, bcrt = 1
+Task 2 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Infeasible <<<<<
+++++++++++++++++++++++++++++++++++++++++
+Concert exception caught: CPLEX Error  1217: No solution exists.
+
+the number of missed deadline is 0
+Time = 0.00849199 sec 
+Constrain satisfied? 1
+
+
+------------------------------------
+task id: 6170, (1, 1, 1, 8) wcrt = 3, bcrt = 1
+Task 3 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Feasible <<<<<
+++++++++++++++++++++++++++++++++++++++++
+the number of missed deadline is 3
+Time = 0.014575 sec 
+Constrain satisfied? 0
+
+
+------------------------------------
+task id: 6171, (8, 8, 9, 15) wcrt = 10002, bcrt = 12
+Task 4 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+taskset83 task4: wcrt is not convergent...
+
+------------------------------------
+task id: 6172, (3, 3, 9, 16) wcrt = inf, bcrt = 16
+Task 5 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+taskset83 task5: wcrt is not convergent...
+
+************************************
+Reading 5_tasks/taskset_dat/84.dat
+------------------------------------
+task id: 6313, (9, 9, 14, 20) wcrt = 18, bcrt = 13
+Task 5 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Feasible <<<<<
+++++++++++++++++++++++++++++++++++++++++
+the number of missed deadline is 4
+Time = 0.249627 sec 
+Constrain satisfied? 0
+
+
+************************************
+Reading 5_tasks/taskset_dat/85.dat
+------------------------------------
+task id: 6326, (2, 2, 2, 9) wcrt = 3, bcrt = 2
+Task 2 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Infeasible <<<<<
+++++++++++++++++++++++++++++++++++++++++
+Concert exception caught: CPLEX Error  1217: No solution exists.
+
+the number of missed deadline is 0
+Time = 0.00901794 sec 
+Constrain satisfied? 1
+
+
+------------------------------------
+task id: 6327, (2, 2, 3, 11) wcrt = 5, bcrt = 2
+Task 3 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Optimal <<<<<
+++++++++++++++++++++++++++++++++++++++++
+the number of missed deadline is 3
+Time = 0.150902 sec 
+Constrain satisfied? 0
+
+
+------------------------------------
+task id: 6328, (1, 1, 1, 14) wcrt = 7, bcrt = 1
+Task 4 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Feasible <<<<<
+++++++++++++++++++++++++++++++++++++++++
+the number of missed deadline is 5
+Time = 0.195102 sec 
+Constrain satisfied? 0
+
+
+------------------------------------
+task id: 6329, (1, 1, 6, 15) wcrt = 8, bcrt = 1
+Task 5 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Optimal <<<<<
+++++++++++++++++++++++++++++++++++++++++
+the number of missed deadline is 4
+Time = 0.388904 sec 
+Constrain satisfied? 0
+
+
+************************************
+Reading 5_tasks/taskset_dat/86.dat
+************************************
+Reading 5_tasks/taskset_dat/87.dat
+------------------------------------
+task id: 6597, (9, 9, 10, 15) wcrt = 11, bcrt = 10
+Task 2 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Infeasible <<<<<
+++++++++++++++++++++++++++++++++++++++++
+Concert exception caught: CPLEX Error  1217: No solution exists.
+
+the number of missed deadline is 0
+Time = 0.0128958 sec 
+Constrain satisfied? 1
+
+
+------------------------------------
+task id: 6598, (1, 1, 10, 18) wcrt = 12, bcrt = 1
+Task 3 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Infeasible <<<<<
+++++++++++++++++++++++++++++++++++++++++
+Concert exception caught: CPLEX Error  1217: No solution exists.
+
+the number of missed deadline is 0
+Time = 0.0149632 sec 
+Constrain satisfied? 1
+
+
+------------------------------------
+task id: 6600, (4, 4, 15, 20) wcrt = 10006, bcrt = 4
+Task 5 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+taskset87 task5: wcrt is not convergent...
+
+************************************
+Reading 5_tasks/taskset_dat/88.dat
+------------------------------------
+task id: 6733, (1, 1, 3, 19) wcrt = 12, bcrt = 1
+Task 5 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Optimal <<<<<
+++++++++++++++++++++++++++++++++++++++++
+the number of missed deadline is 5
+Time = 0.568541 sec 
+Constrain satisfied? 0
+
+
+************************************
+Reading 5_tasks/taskset_dat/89.dat
+------------------------------------
+task id: 6777, (9, 9, 19, 19) wcrt = 10001, bcrt = 13
+Task 5 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+taskset89 task5: wcrt is not convergent...
+
+************************************
+Reading 5_tasks/taskset_dat/90.dat
+------------------------------------
+task id: 6779, (1, 1, 1, 7) wcrt = 2, bcrt = 1
+Task 2 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Infeasible <<<<<
+++++++++++++++++++++++++++++++++++++++++
+Concert exception caught: CPLEX Error  1217: No solution exists.
+
+the number of missed deadline is 0
+Time = 0.008605 sec 
+Constrain satisfied? 1
+
+
+------------------------------------
+task id: 6781, (7, 7, 13, 13) wcrt = 14, bcrt = 10
+Task 4 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Infeasible <<<<<
+++++++++++++++++++++++++++++++++++++++++
+Concert exception caught: CPLEX Error  1217: No solution exists.
+
+the number of missed deadline is 0
+Time = 0.018857 sec 
+Constrain satisfied? 1
+
+
+------------------------------------
+task id: 6782, (1, 1, 12, 19) wcrt = 10014, bcrt = 1
+Task 5 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+taskset90 task5: wcrt is not convergent...
+
+************************************
+Reading 5_tasks/taskset_dat/91.dat
+------------------------------------
+task id: 6869, (10, 10, 13, 20) wcrt = 10006, bcrt = 20
+Task 5 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+taskset91 task5: wcrt is not convergent...
+
+************************************
+Reading 5_tasks/taskset_dat/92.dat
+------------------------------------
+task id: 6874, (5, 5, 15, 16) wcrt = 10001, bcrt = 5
+Task 5 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+taskset92 task5: wcrt is not convergent...
+
+************************************
+Reading 5_tasks/taskset_dat/93.dat
+------------------------------------
+task id: 6878, (1, 1, 1, 16) wcrt = 10, bcrt = 1
+Task 4 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Feasible <<<<<
+++++++++++++++++++++++++++++++++++++++++
+the number of missed deadline is 3
+Time = 0.0254481 sec 
+Constrain satisfied? 0
+
+
+------------------------------------
+task id: 6879, (3, 3, 4, 18) wcrt = 10001, bcrt = 3
+Task 5 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+taskset93 task5: wcrt is not convergent...
+
+************************************
+Reading 5_tasks/taskset_dat/94.dat
+------------------------------------
+task id: 6917, (1, 1, 6, 12) wcrt = 8, bcrt = 1
+Task 3 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Infeasible <<<<<
+++++++++++++++++++++++++++++++++++++++++
+Concert exception caught: CPLEX Error  1217: No solution exists.
+
+the number of missed deadline is 0
+Time = 0.017369 sec 
+Constrain satisfied? 1
+
+
+------------------------------------
+task id: 6919, (2, 2, 11, 16) wcrt = 23, bcrt = 2
+Task 5 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Optimal <<<<<
+++++++++++++++++++++++++++++++++++++++++
+the number of missed deadline is 5
+Time = 0.441052 sec 
+Constrain satisfied? 0
+
+
+************************************
+Reading 5_tasks/taskset_dat/95.dat
+------------------------------------
+task id: 6966, (1, 1, 2, 12) wcrt = 8, bcrt = 1
+Task 2 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Feasible <<<<<
+++++++++++++++++++++++++++++++++++++++++
+the number of missed deadline is 4
+Time = 0.020292 sec 
+Constrain satisfied? 0
+
+
+------------------------------------
+task id: 6968, (1, 1, 10, 16) wcrt = 10003, bcrt = 1
+Task 4 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+taskset95 task4: wcrt is not convergent...
+
+------------------------------------
+task id: 6969, (1, 1, 1, 19) wcrt = inf, bcrt = 1
+Task 5 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+taskset95 task5: wcrt is not convergent...
+
+************************************
+Reading 5_tasks/taskset_dat/96.dat
+------------------------------------
+task id: 6999, (1, 1, 1, 15) wcrt = 6, bcrt = 1
+Task 4 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Feasible <<<<<
+++++++++++++++++++++++++++++++++++++++++
+the number of missed deadline is 5
+Time = 0.223715 sec 
+Constrain satisfied? 0
+
+
+------------------------------------
+task id: 7000, (6, 6, 17, 17) wcrt = 18, bcrt = 6
+Task 5 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Infeasible <<<<<
+++++++++++++++++++++++++++++++++++++++++
+Concert exception caught: CPLEX Error  1217: No solution exists.
+
+the number of missed deadline is 0
+Time = 0.0258141 sec 
+Constrain satisfied? 1
+
+
+************************************
+Reading 5_tasks/taskset_dat/97.dat
+------------------------------------
+task id: 7113, (1, 1, 2, 8) wcrt = 3, bcrt = 1
+Task 3 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Infeasible <<<<<
+++++++++++++++++++++++++++++++++++++++++
+Concert exception caught: CPLEX Error  1217: No solution exists.
+
+the number of missed deadline is 0
+Time = 0.011898 sec 
+Constrain satisfied? 1
+
+
+------------------------------------
+task id: 7114, (6, 6, 7, 12) wcrt = 13, bcrt = 9
+Task 4 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Optimal <<<<<
+++++++++++++++++++++++++++++++++++++++++
+the number of missed deadline is 5
+Time = 0.020422 sec 
+Constrain satisfied? 0
+
+
+------------------------------------
+task id: 7115, (1, 1, 9, 19) wcrt = 10002, bcrt = 1
+Task 5 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+taskset97 task5: wcrt is not convergent...
+
+************************************
+Reading 5_tasks/taskset_dat/98.dat
+------------------------------------
+task id: 7190, (4, 4, 9, 14) wcrt = 10, bcrt = 4
+Task 4 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Infeasible <<<<<
+++++++++++++++++++++++++++++++++++++++++
+Concert exception caught: CPLEX Error  1217: No solution exists.
+
+the number of missed deadline is 0
+Time = 0.0241861 sec 
+Constrain satisfied? 1
+
+
+------------------------------------
+task id: 7191, (2, 2, 10, 18) wcrt = 12, bcrt = 2
+Task 5 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Infeasible <<<<<
+++++++++++++++++++++++++++++++++++++++++
+Concert exception caught: CPLEX Error  1217: No solution exists.
+
+the number of missed deadline is 0
+Time = 0.514426 sec 
+Constrain satisfied? 1
+
+
+************************************
+Reading 5_tasks/taskset_dat/99.dat
+------------------------------------
+task id: 7291, (5, 5, 10, 20) wcrt = 17, bcrt = 5
+Task 4 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Feasible <<<<<
+++++++++++++++++++++++++++++++++++++++++
+the number of missed deadline is 5
+Time = 0.4178 sec 
+Constrain satisfied? 0
+
+
+------------------------------------
+task id: 7292, (4, 4, 19, 20) wcrt = 10013, bcrt = 4
+Task 5 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+taskset99 task5: wcrt is not convergent...
+
+************************************
+Reading 5_tasks/taskset_dat/100.dat
+------------------------------------
+task id: 7350, (1, 1, 3, 10) wcrt = 4, bcrt = 1
+Task 3 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Infeasible <<<<<
+++++++++++++++++++++++++++++++++++++++++
+Concert exception caught: CPLEX Error  1217: No solution exists.
+
+the number of missed deadline is 0
+Time = 0.0152452 sec 
+Constrain satisfied? 1
+
+
+------------------------------------
+task id: 7351, (1, 1, 4, 17) wcrt = 5, bcrt = 1
+Task 4 is un-schedulable
+Running weakly-hard analysis: m=2, K=5 ... 
+++++++++++++++++++++++++++++++++++++++++
+>>>>>> Infeasible <<<<<
+++++++++++++++++++++++++++++++++++++++++
+Concert exception caught: CPLEX Error  1217: No solution exists.
+
+the number of missed deadline is 0
+Time = 0.0234661 sec 
+Constrain satisfied? 1
+
+
+total_satisfies_mk is 43
+total_unschedulable_tasks is 150
+Average execution time: 0.0589848 sec
+Ratio of unschedulable tasks that satisfy m/K: 28.6667%
