@@ -5,7 +5,7 @@
 #include <stdbool.h>
 
 #define SIMULATION_TIME 80
-#define TASKS_NUM 5
+#define TASKS_NUM 6
 #define M 1
 #define K 3
 typedef struct {
@@ -25,11 +25,12 @@ typedef struct {
 extern Task tasks[TASKS_NUM];
 
 Task tasks[TASKS_NUM] = {
-    {1,4,11,7,true,4,0,0,0,0,true},
-    {2,1,12,9,true,1,0,0,0,0,true},
-    {3,5,16,15,true,5,0,0,0,0,true},
-    {4,1,20,15,true,1,0,0,0,0,true},
-    {5,1,20,4,false,1,0,0,0,0,true},
+    {1,1,5,2,true,1,0,0,0,0,true},
+    {2,1,7,3,true,1,0,0,0,0,true},
+    {3,1,7,6,true,1,0,0,0,0,true},
+    {4,1,9,8,true,1,0,0,0,0,true},
+    {5,1,18,6,true,1,0,0,0,0,true},
+    {6,12,20,13,false,12,0,0,0,0,true},
     };
 
 void init();

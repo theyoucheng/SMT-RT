@@ -3,8 +3,8 @@ import random
 from collections import namedtuple
 import os
 
-NUM_TASKS = 6
-UTILIZATION_SUM = 0.99
+NUM_TASKS = 7
+UTILIZATION_SUM = 1.0
 TMIN = 5
 TMAX = 20
 M = 1
