@@ -1,0 +1,1600 @@
+************************
+Reading ./taskset/n-6_u-0.99/1.txt
+{
+{1,1,5,1,true,1,0,0,0,0,true},
+{2,1,6,2,true,1,0,0,0,0,true},
+{3,1,7,4,true,1,0,0,0,0,true},
+{4,1,8,7,true,1,0,0,0,0,true},
+{5,1,14,5,true,1,0,0,0,0,true},
+{6,1,15,3,false,1,0,0,0,0,false},
+};
+task id: 6, {6,1,15,3,false,1,0,0,0,0,false},
+task6 is un-schedulable
+Running weakly-hard analysis: M=2, K=5
+Timeing Info: Usertime: 47.67user, System time: 1.49system, Elaped time: 0:49.18elapsed
+Constrain satisfied? false
+
+************************
+Reading ./taskset/n-6_u-0.99/2.txt
+{
+{1,1,5,2,true,1,0,0,0,0,true},
+{2,1,7,3,true,1,0,0,0,0,true},
+{3,1,7,6,true,1,0,0,0,0,true},
+{4,1,9,8,true,1,0,0,0,0,true},
+{5,1,18,6,true,1,0,0,0,0,true},
+{6,12,20,13,false,12,0,0,0,0,false},
+};
+task id: 6, {6,12,20,13,false,12,0,0,0,0,false},
+task6 is un-schedulable
+Running weakly-hard analysis: M=2, K=5
+Timeing Info: Usertime: 56.57user, System time: 1.91system, Elaped time: 0:58.49elapsed
+Constrain satisfied? false
+
+************************
+Reading ./taskset/n-6_u-0.99/3.txt
+{
+{1,1,5,3,true,1,0,0,0,0,true},
+{2,1,6,2,true,1,0,0,0,0,true},
+{3,1,9,8,true,1,0,0,0,0,true},
+{4,1,17,5,true,1,0,0,0,0,true},
+{5,1,18,13,true,1,0,0,0,0,true},
+{6,6,20,13,false,6,0,0,0,0,false},
+};
+task id: 6, {6,6,20,13,false,6,0,0,0,0,false},
+task6 is un-schedulable
+Running weakly-hard analysis: M=2, K=5
+Timeing Info: Usertime: 109.14user, System time: 2.35system, Elaped time: 1:51.50elapsed
+Constrain satisfied? false
+
+************************
+Reading ./taskset/n-6_u-0.99/4.txt
+{
+{1,2,7,2,true,2,0,0,0,0,true},
+{2,1,7,7,true,1,0,0,0,0,true},
+{3,1,12,5,true,1,0,0,0,0,true},
+{4,1,12,11,true,1,0,0,0,0,true},
+{5,2,13,7,true,2,0,0,0,0,true},
+{6,3,15,3,false,3,0,0,0,0,false},
+};
+task id: 6, {6,3,15,3,false,3,0,0,0,0,false},
+task6 is un-schedulable
+Running weakly-hard analysis: M=2, K=5
+Timeing Info: Usertime: 51.00user, System time: 1.50system, Elaped time: 0:52.51elapsed
+Constrain satisfied? false
+
+************************
+Reading ./taskset/n-6_u-0.99/5.txt
+{
+{1,1,6,3,true,1,0,0,0,0,true},
+{2,1,8,6,true,1,0,0,0,0,true},
+{3,1,15,6,true,1,0,0,0,0,true},
+{4,1,16,10,true,1,0,0,0,0,true},
+{5,2,16,7,true,2,0,0,0,0,true},
+{6,7,20,20,false,7,0,0,0,0,true},
+};
+task id: 6, {6,7,20,20,false,7,0,0,0,0,true},
+task6 is un-schedulable
+Running weakly-hard analysis: M=2, K=5
+Timeing Info: time out ...
+Constrain satisfied? unknown
+
+************************
+Reading ./taskset/n-6_u-0.99/6.txt
+{
+{1,1,6,4,true,1,0,0,0,0,true},
+{2,1,10,8,true,1,0,0,0,0,true},
+{3,1,13,12,true,1,0,0,0,0,true},
+{4,1,15,9,true,1,0,0,0,0,true},
+{5,4,15,15,true,4,0,0,0,0,true},
+{6,1,16,1,false,1,0,0,0,0,false},
+};
+task id: 6, {6,1,16,1,false,1,0,0,0,0,false},
+task6 is un-schedulable
+Running weakly-hard analysis: M=2, K=5
+Timeing Info: Usertime: 82.10user, System time: 2.52system, Elaped time: 1:24.64elapsed
+Constrain satisfied? false
+
+************************
+Reading ./taskset/n-6_u-0.99/7.txt
+{
+{1,3,13,6,true,3,0,0,0,0,true},
+{2,2,14,12,true,2,0,0,0,0,true},
+{3,1,15,11,true,1,0,0,0,0,true},
+{4,3,16,14,true,3,0,0,0,0,true},
+{5,2,17,17,true,2,0,0,0,0,true},
+{6,2,20,6,false,2,0,0,0,0,false},
+};
+task id: 6, {6,2,20,6,false,2,0,0,0,0,false},
+task6 is un-schedulable
+Running weakly-hard analysis: M=2, K=5
+Timeing Info: Usertime: 108.95user, System time: 3.05system, Elaped time: 1:52.01elapsed
+Constrain satisfied? false
+
+************************
+Reading ./taskset/n-6_u-0.99/8.txt
+{
+{1,1,7,3,true,1,0,0,0,0,true},
+{2,1,11,3,true,1,0,0,0,0,true},
+{3,2,12,5,true,2,0,0,0,0,true},
+{4,1,15,15,true,1,0,0,0,0,true},
+{5,2,17,16,true,2,0,0,0,0,true},
+{6,4,20,7,false,4,0,0,0,0,false},
+};
+task id: 6, {6,4,20,7,false,4,0,0,0,0,false},
+task6 is un-schedulable
+Running weakly-hard analysis: M=2, K=5
+Timeing Info: Usertime: 115.95user, System time: 3.23system, Elaped time: 1:59.19elapsed
+Constrain satisfied? false
+
+************************
+Reading ./taskset/n-6_u-0.99/9.txt
+{
+{1,1,11,3,true,1,0,0,0,0,true},
+{2,1,16,14,true,1,0,0,0,0,true},
+{3,3,16,8,true,3,0,0,0,0,true},
+{4,1,17,7,true,1,0,0,0,0,true},
+{5,7,18,15,true,7,0,0,0,0,true},
+{6,2,20,2,false,2,0,0,0,0,false},
+};
+task id: 6, {6,2,20,2,false,2,0,0,0,0,false},
+task6 is un-schedulable
+Running weakly-hard analysis: M=2, K=5
+Timeing Info: Usertime: 121.79user, System time: 2.44system, Elaped time: 2:04.24elapsed
+Constrain satisfied? false
+
+************************
+Reading ./taskset/n-6_u-0.99/10.txt
+{
+{1,1,9,2,true,1,0,0,0,0,true},
+{2,2,9,8,true,2,0,0,0,0,true},
+{3,1,13,5,true,1,0,0,0,0,true},
+{4,2,13,9,true,2,0,0,0,0,true},
+{5,2,17,17,true,2,0,0,0,0,true},
+{6,3,18,11,false,3,0,0,0,0,false},
+};
+task id: 6, {6,3,18,11,false,3,0,0,0,0,false},
+task6 is un-schedulable
+Running weakly-hard analysis: M=2, K=5
+Timeing Info: Usertime: 163.67user, System time: 2.97system, Elaped time: 2:46.65elapsed
+Constrain satisfied? false
+
+************************
+Reading ./taskset/n-6_u-0.99/11.txt
+{
+{1,1,7,5,true,1,0,0,0,0,true},
+{2,1,7,5,true,1,0,0,0,0,true},
+{3,1,14,6,true,1,0,0,0,0,true},
+{4,1,16,5,true,1,0,0,0,0,true},
+{5,4,16,16,true,4,0,0,0,0,true},
+{6,1,18,1,false,1,0,0,0,0,false},
+};
+task id: 6, {6,1,18,1,false,1,0,0,0,0,false},
+task6 is un-schedulable
+Running weakly-hard analysis: M=2, K=5
+Timeing Info: Usertime: 80.76user, System time: 2.59system, Elaped time: 1:23.36elapsed
+Constrain satisfied? false
+
+************************
+Reading ./taskset/n-6_u-0.99/12.txt
+{
+{1,1,5,5,true,1,0,0,0,0,true},
+{2,1,6,4,true,1,0,0,0,0,true},
+{3,2,14,5,true,2,0,0,0,0,true},
+{4,2,15,12,true,2,0,0,0,0,true},
+{5,1,20,20,true,1,0,0,0,0,true},
+{6,4,20,8,false,4,0,0,0,0,false},
+};
+task id: 6, {6,4,20,8,false,4,0,0,0,0,false},
+task6 is un-schedulable
+Running weakly-hard analysis: M=2, K=5
+Timeing Info: Usertime: 105.20user, System time: 2.96system, Elaped time: 1:48.17elapsed
+Constrain satisfied? false
+
+************************
+Reading ./taskset/n-6_u-0.99/13.txt
+{
+{1,1,5,3,true,1,0,0,0,0,true},
+{2,1,7,6,true,1,0,0,0,0,true},
+{3,1,8,3,true,1,0,0,0,0,true},
+{4,1,12,6,true,1,0,0,0,0,true},
+{5,2,17,9,true,2,0,0,0,0,true},
+{6,12,20,13,false,12,0,0,0,0,false},
+};
+task id: 6, {6,12,20,13,false,12,0,0,0,0,false},
+task6 is un-schedulable
+Running weakly-hard analysis: M=2, K=5
+Timeing Info: Usertime: 77.49user, System time: 2.20system, Elaped time: 1:19.70elapsed
+Constrain satisfied? false
+
+************************
+Reading ./taskset/n-6_u-0.99/14.txt
+{
+{1,1,6,4,true,1,0,0,0,0,true},
+{2,1,6,6,true,1,0,0,0,0,true},
+{3,1,8,5,true,1,0,0,0,0,true},
+{4,1,16,10,true,1,0,0,0,0,true},
+{5,2,18,12,true,2,0,0,0,0,true},
+{6,4,18,12,false,4,0,0,0,0,false},
+};
+task id: 6, {6,4,18,12,false,4,0,0,0,0,false},
+task6 is un-schedulable
+Running weakly-hard analysis: M=2, K=5
+Timeing Info: Usertime: 166.12user, System time: 2.56system, Elaped time: 2:48.69elapsed
+Constrain satisfied? false
+
+************************
+Reading ./taskset/n-6_u-0.99/15.txt
+{
+{1,1,5,5,true,1,0,0,0,0,true},
+{2,1,5,5,true,1,0,0,0,0,true},
+{3,1,8,5,true,1,0,0,0,0,true},
+{4,1,8,4,true,1,0,0,0,0,true},
+{5,1,10,8,true,1,0,0,0,0,true},
+{6,1,12,4,false,1,0,0,0,0,false},
+};
+task id: 6, {6,1,12,4,false,1,0,0,0,0,false},
+task6 is un-schedulable
+Running weakly-hard analysis: M=2, K=5
+Timeing Info: Usertime: 305.17user, System time: 2.71system, Elaped time: 5:07.90elapsed
+Constrain satisfied? false
+
+************************
+Reading ./taskset/n-6_u-0.99/16.txt
+{
+{1,1,6,6,true,1,0,0,0,0,true},
+{2,1,15,3,true,1,0,0,0,0,true},
+{3,1,15,4,true,1,0,0,0,0,true},
+{4,1,16,14,true,1,0,0,0,0,true},
+{5,5,19,19,true,5,0,0,0,0,true},
+{6,5,20,6,false,5,0,0,0,0,false},
+};
+task id: 6, {6,5,20,6,false,5,0,0,0,0,false},
+task6 is un-schedulable
+Running weakly-hard analysis: M=2, K=5
+Timeing Info: Usertime: 120.41user, System time: 2.64system, Elaped time: 2:03.06elapsed
+Constrain satisfied? false
+
+************************
+Reading ./taskset/n-6_u-0.99/17.txt
+{
+{1,1,10,9,true,1,0,0,0,0,true},
+{2,1,11,9,true,1,0,0,0,0,true},
+{3,2,12,8,true,2,0,0,0,0,true},
+{4,1,12,9,true,1,0,0,0,0,true},
+{5,3,16,11,true,3,0,0,0,0,true},
+{6,1,19,3,false,1,0,0,0,0,false},
+};
+task id: 6, {6,1,19,3,false,1,0,0,0,0,false},
+task6 is un-schedulable
+Running weakly-hard analysis: M=2, K=5
+Timeing Info: Usertime: 68.11user, System time: 2.14system, Elaped time: 1:10.27elapsed
+Constrain satisfied? false
+
+************************
+Reading ./taskset/n-6_u-0.99/18.txt
+{
+{1,1,5,3,true,1,0,0,0,0,true},
+{2,1,14,7,true,1,0,0,0,0,true},
+{3,1,16,11,true,1,0,0,0,0,true},
+{4,2,17,9,true,2,0,0,0,0,true},
+{5,3,18,11,true,3,0,0,0,0,true},
+{6,6,20,9,false,6,0,0,0,0,false},
+};
+task id: 6, {6,6,20,9,false,6,0,0,0,0,false},
+task6 is un-schedulable
+Running weakly-hard analysis: M=2, K=5
+Timeing Info: Usertime: 112.59user, System time: 2.37system, Elaped time: 1:54.97elapsed
+Constrain satisfied? false
+
+************************
+Reading ./taskset/n-6_u-0.99/19.txt
+{
+{1,1,8,2,true,1,0,0,0,0,true},
+{2,1,10,3,true,1,0,0,0,0,true},
+{3,2,12,10,true,2,0,0,0,0,true},
+{4,1,16,9,true,1,0,0,0,0,true},
+{5,1,18,13,true,1,0,0,0,0,true},
+{6,8,20,11,false,8,0,0,0,0,false},
+};
+task id: 6, {6,8,20,11,false,8,0,0,0,0,false},
+task6 is un-schedulable
+Running weakly-hard analysis: M=2, K=5
+Timeing Info: Usertime: 95.73user, System time: 2.36system, Elaped time: 1:38.10elapsed
+Constrain satisfied? false
+
+************************
+Reading ./taskset/n-6_u-0.99/20.txt
+{
+{1,1,5,3,true,1,0,0,0,0,true},
+{2,1,5,3,true,1,0,0,0,0,true},
+{3,1,5,3,true,1,0,0,0,0,true},
+{4,1,9,8,true,1,0,0,0,0,true},
+{5,1,14,11,true,1,0,0,0,0,true},
+{6,5,16,16,false,5,0,0,0,0,false},
+};
+task id: 6, {6,5,16,16,false,5,0,0,0,0,false},
+task6 is un-schedulable
+Running weakly-hard analysis: M=2, K=5
+Timeing Info: Usertime: 69.86user, System time: 1.90system, Elaped time: 1:11.77elapsed
+Constrain satisfied? false
+
+************************
+Reading ./taskset/n-6_u-0.99/21.txt
+{
+{1,1,9,8,true,1,0,0,0,0,true},
+{2,1,11,8,true,1,0,0,0,0,true},
+{3,5,13,8,true,5,0,0,0,0,true},
+{4,2,14,9,true,2,0,0,0,0,true},
+{5,1,17,15,true,1,0,0,0,0,true},
+{6,5,17,8,false,5,0,0,0,0,false},
+};
+task id: 6, {6,5,17,8,false,5,0,0,0,0,false},
+task6 is un-schedulable
+Running weakly-hard analysis: M=2, K=5
+Timeing Info: Usertime: 81.86user, System time: 2.26system, Elaped time: 1:24.14elapsed
+Constrain satisfied? false
+
+************************
+Reading ./taskset/n-6_u-0.99/22.txt
+{
+{1,1,8,5,true,1,0,0,0,0,true},
+{2,1,10,9,true,1,0,0,0,0,true},
+{3,1,15,3,true,1,0,0,0,0,true},
+{4,4,16,7,true,4,0,0,0,0,true},
+{5,2,19,11,true,2,0,0,0,0,true},
+{6,6,20,18,false,6,0,0,0,0,false},
+};
+task id: 6, {6,6,20,18,false,6,0,0,0,0,false},
+task6 is un-schedulable
+Running weakly-hard analysis: M=2, K=5
+Timeing Info: Usertime: 205.82user, System time: 3.36system, Elaped time: 3:29.18elapsed
+Constrain satisfied? false
+
+************************
+Reading ./taskset/n-6_u-0.99/23.txt
+{
+{1,1,7,7,true,1,0,0,0,0,true},
+{2,1,9,6,true,1,0,0,0,0,true},
+{3,1,10,7,true,1,0,0,0,0,true},
+{4,3,13,7,true,3,0,0,0,0,true},
+{5,1,16,7,true,1,0,0,0,0,true},
+{6,4,17,8,false,4,0,0,0,0,false},
+};
+task id: 6, {6,4,17,8,false,4,0,0,0,0,false},
+task6 is un-schedulable
+Running weakly-hard analysis: M=2, K=5
+Timeing Info: Usertime: 137.60user, System time: 2.51system, Elaped time: 2:20.13elapsed
+Constrain satisfied? false
+
+************************
+Reading ./taskset/n-6_u-0.99/24.txt
+{
+{1,1,6,5,true,1,0,0,0,0,true},
+{2,1,10,4,true,1,0,0,0,0,true},
+{3,1,10,6,true,1,0,0,0,0,true},
+{4,1,11,5,true,1,0,0,0,0,true},
+{5,2,11,10,true,2,0,0,0,0,true},
+{6,7,14,10,false,7,0,0,0,0,false},
+};
+task id: 6, {6,7,14,10,false,7,0,0,0,0,false},
+task6 is un-schedulable
+Running weakly-hard analysis: M=2, K=5
+Timeing Info: Usertime: 49.89user, System time: 1.54system, Elaped time: 0:51.44elapsed
+Constrain satisfied? false
+
+************************
+Reading ./taskset/n-6_u-0.99/25.txt
+{
+{1,6,12,9,true,6,0,0,0,0,true},
+{2,1,14,8,true,1,0,0,0,0,true},
+{3,1,15,10,true,1,0,0,0,0,true},
+{4,1,15,13,true,1,0,0,0,0,true},
+{5,1,16,13,true,1,0,0,0,0,true},
+{6,3,17,16,false,3,0,0,0,0,false},
+};
+task id: 6, {6,3,17,16,false,3,0,0,0,0,false},
+task6 is un-schedulable
+Running weakly-hard analysis: M=2, K=5
+Timeing Info: Usertime: 2764.57user, System time: 9.28system, Elaped time: 46:13.92elapsed
+Constrain satisfied? false
+
+************************
+Reading ./taskset/n-6_u-0.99/26.txt
+{
+{1,1,6,3,true,1,0,0,0,0,true},
+{2,2,11,3,true,2,0,0,0,0,true},
+{3,1,15,4,true,1,0,0,0,0,true},
+{4,1,15,15,true,1,0,0,0,0,true},
+{5,1,18,17,true,1,0,0,0,0,true},
+{6,9,19,18,false,9,0,0,0,0,false},
+};
+task id: 6, {6,9,19,18,false,9,0,0,0,0,false},
+task6 is un-schedulable
+Running weakly-hard analysis: M=2, K=5
+Timeing Info: Usertime: 65.22user, System time: 2.33system, Elaped time: 1:07.56elapsed
+Constrain satisfied? false
+
+************************
+Reading ./taskset/n-6_u-0.99/27.txt
+{
+{1,1,7,1,true,1,0,0,0,0,true},
+{2,1,8,3,true,1,0,0,0,0,true},
+{3,1,11,8,true,1,0,0,0,0,true},
+{4,1,11,5,true,1,0,0,0,0,true},
+{5,4,12,10,true,4,0,0,0,0,true},
+{6,8,20,8,false,8,0,0,0,0,false},
+};
+task id: 6, {6,8,20,8,false,8,0,0,0,0,false},
+task6 is un-schedulable
+Running weakly-hard analysis: M=2, K=5
+Timeing Info: Usertime: 110.43user, System time: 4.76system, Elaped time: 1:55.20elapsed
+Constrain satisfied? false
+
+************************
+Reading ./taskset/n-6_u-0.99/28.txt
+{
+{1,1,6,6,true,1,0,0,0,0,true},
+{2,1,10,4,true,1,0,0,0,0,true},
+{3,1,12,9,true,1,0,0,0,0,true},
+{4,1,12,9,true,1,0,0,0,0,true},
+{5,1,15,9,true,1,0,0,0,0,true},
+{6,11,17,16,false,11,0,0,0,0,false},
+};
+task id: 6, {6,11,17,16,false,11,0,0,0,0,false},
+task6 is un-schedulable
+Running weakly-hard analysis: M=2, K=5
+Timeing Info: Usertime: 83.30user, System time: 2.05system, Elaped time: 1:25.37elapsed
+Constrain satisfied? false
+
+************************
+Reading ./taskset/n-6_u-0.99/29.txt
+{
+{1,1,9,2,true,1,0,0,0,0,true},
+{2,2,10,4,true,2,0,0,0,0,true},
+{3,2,13,9,true,2,0,0,0,0,true},
+{4,1,15,15,true,1,0,0,0,0,true},
+{5,1,15,13,true,1,0,0,0,0,true},
+{6,6,18,13,false,6,0,0,0,0,false},
+};
+task id: 6, {6,6,18,13,false,6,0,0,0,0,false},
+task6 is un-schedulable
+Running weakly-hard analysis: M=2, K=5
+Timeing Info: Usertime: 92.13user, System time: 1.88system, Elaped time: 1:34.02elapsed
+Constrain satisfied? false
+
+************************
+Reading ./taskset/n-6_u-0.99/30.txt
+{
+{1,1,11,9,true,1,0,0,0,0,true},
+{2,1,13,13,true,1,0,0,0,0,true},
+{3,1,15,6,true,1,0,0,0,0,true},
+{4,2,17,16,true,2,0,0,0,0,true},
+{5,2,18,15,true,2,0,0,0,0,true},
+{6,8,19,14,false,8,0,0,0,0,false},
+};
+task id: 6, {6,8,19,14,false,8,0,0,0,0,false},
+task6 is un-schedulable
+Running weakly-hard analysis: M=2, K=5
+Timeing Info: Usertime: 85.24user, System time: 2.56system, Elaped time: 1:27.81elapsed
+Constrain satisfied? false
+
+************************
+Reading ./taskset/n-6_u-0.99/31.txt
+{
+{1,1,7,6,true,1,0,0,0,0,true},
+{2,1,11,2,true,1,0,0,0,0,true},
+{3,3,13,13,true,3,0,0,0,0,true},
+{4,1,14,10,true,1,0,0,0,0,true},
+{5,4,16,16,true,4,0,0,0,0,true},
+{6,2,20,5,false,2,0,0,0,0,false},
+};
+task id: 6, {6,2,20,5,false,2,0,0,0,0,false},
+task6 is un-schedulable
+Running weakly-hard analysis: M=2, K=5
+Timeing Info: Usertime: 111.84user, System time: 2.46system, Elaped time: 1:54.32elapsed
+Constrain satisfied? false
+
+************************
+Reading ./taskset/n-6_u-0.99/32.txt
+{
+{1,1,6,5,true,1,0,0,0,0,true},
+{2,1,11,3,true,1,0,0,0,0,true},
+{3,2,11,11,true,2,0,0,0,0,true},
+{4,1,14,13,true,1,0,0,0,0,true},
+{5,1,15,8,true,1,0,0,0,0,true},
+{6,5,15,9,false,5,0,0,0,0,false},
+};
+task id: 6, {6,5,15,9,false,5,0,0,0,0,false},
+task6 is un-schedulable
+Running weakly-hard analysis: M=2, K=5
+Timeing Info: Usertime: 95.22user, System time: 1.88system, Elaped time: 1:37.12elapsed
+Constrain satisfied? false
+
+************************
+Reading ./taskset/n-6_u-0.99/33.txt
+{
+{1,1,6,1,true,1,0,0,0,0,true},
+{2,1,6,3,true,1,0,0,0,0,true},
+{3,3,15,6,true,3,0,0,0,0,true},
+{4,1,15,10,true,1,0,0,0,0,true},
+{5,1,15,10,true,1,0,0,0,0,true},
+{6,8,20,19,false,8,0,0,0,0,false},
+};
+task id: 6, {6,8,20,19,false,8,0,0,0,0,false},
+task6 is un-schedulable
+Running weakly-hard analysis: M=2, K=5
+Timeing Info: Usertime: 95.28user, System time: 2.17system, Elaped time: 1:37.46elapsed
+Constrain satisfied? false
+
+************************
+Reading ./taskset/n-6_u-0.99/34.txt
+{
+{1,1,6,3,true,1,0,0,0,0,true},
+{2,1,7,6,true,1,0,0,0,0,true},
+{3,2,8,6,true,2,0,0,0,0,true},
+{4,1,10,10,true,1,0,0,0,0,true},
+{5,1,15,13,true,1,0,0,0,0,true},
+{6,3,19,7,false,3,0,0,0,0,false},
+};
+task id: 6, {6,3,19,7,false,3,0,0,0,0,false},
+task6 is un-schedulable
+Running weakly-hard analysis: M=2, K=5
+Timeing Info: Usertime: 124.18user, System time: 4.04system, Elaped time: 2:08.23elapsed
+Constrain satisfied? false
+
+************************
+Reading ./taskset/n-6_u-0.99/35.txt
+{
+{1,1,5,2,true,1,0,0,0,0,true},
+{2,1,6,5,true,1,0,0,0,0,true},
+{3,1,10,5,true,1,0,0,0,0,true},
+{4,1,11,9,true,1,0,0,0,0,true},
+{5,2,15,9,true,2,0,0,0,0,true},
+{6,9,19,12,false,9,0,0,0,0,false},
+};
+task id: 6, {6,9,19,12,false,9,0,0,0,0,false},
+task6 is un-schedulable
+Running weakly-hard analysis: M=2, K=5
+Timeing Info: Usertime: 62.60user, System time: 2.08system, Elaped time: 1:04.70elapsed
+Constrain satisfied? false
+
+************************
+Reading ./taskset/n-6_u-0.99/36.txt
+{
+{1,1,6,4,true,1,0,0,0,0,true},
+{2,2,6,5,true,2,0,0,0,0,true},
+{3,1,7,7,true,1,0,0,0,0,true},
+{4,1,9,8,true,1,0,0,0,0,true},
+{5,1,10,6,true,1,0,0,0,0,true},
+{6,1,18,11,false,1,0,0,0,0,true},
+};
+task id: 6, {6,1,18,11,false,1,0,0,0,0,true},
+task6 is un-schedulable
+Running weakly-hard analysis: M=2, K=5
+Timeing Info: time out ...
+Constrain satisfied? unknown
+
+************************
+Reading ./taskset/n-6_u-0.99/37.txt
+{
+{1,1,9,7,true,1,0,0,0,0,true},
+{2,1,16,12,true,1,0,0,0,0,true},
+{3,1,16,3,true,1,0,0,0,0,true},
+{4,3,16,8,true,3,0,0,0,0,true},
+{5,2,16,12,true,2,0,0,0,0,true},
+{6,6,18,7,false,6,0,0,0,0,false},
+};
+task id: 6, {6,6,18,7,false,6,0,0,0,0,false},
+task6 is un-schedulable
+Running weakly-hard analysis: M=2, K=5
+Timeing Info: Usertime: 113.89user, System time: 1.94system, Elaped time: 1:55.84elapsed
+Constrain satisfied? false
+
+************************
+Reading ./taskset/n-6_u-0.99/38.txt
+{
+{1,1,6,4,true,1,0,0,0,0,true},
+{2,1,8,3,true,1,0,0,0,0,true},
+{3,1,13,11,true,1,0,0,0,0,true},
+{4,1,14,14,true,1,0,0,0,0,true},
+{5,1,20,12,true,1,0,0,0,0,true},
+{6,14,20,18,false,14,0,0,0,0,false},
+};
+task id: 6, {6,14,20,18,false,14,0,0,0,0,false},
+task6 is un-schedulable
+Running weakly-hard analysis: M=2, K=5
+Timeing Info: Usertime: 93.78user, System time: 2.52system, Elaped time: 1:36.31elapsed
+Constrain satisfied? false
+
+************************
+Reading ./taskset/n-6_u-0.99/39.txt
+{
+{1,1,6,5,true,1,0,0,0,0,true},
+{2,2,8,5,true,2,0,0,0,0,true},
+{3,1,11,11,true,1,0,0,0,0,true},
+{4,1,18,10,true,1,0,0,0,0,true},
+{5,1,20,12,true,1,0,0,0,0,true},
+{6,4,20,12,false,4,0,0,0,0,true},
+};
+task id: 6, {6,4,20,12,false,4,0,0,0,0,true},
+task6 is un-schedulable
+Running weakly-hard analysis: M=2, K=5
+Timeing Info: time out ...
+Constrain satisfied? unknown
+
+************************
+Reading ./taskset/n-6_u-0.99/40.txt
+{
+{1,1,6,4,true,1,0,0,0,0,true},
+{2,2,7,3,true,2,0,0,0,0,true},
+{3,1,15,10,true,1,0,0,0,0,true},
+{4,1,16,10,true,1,0,0,0,0,true},
+{5,4,17,15,true,4,0,0,0,0,true},
+{6,3,20,10,false,3,0,0,0,0,false},
+};
+task id: 6, {6,3,20,10,false,3,0,0,0,0,false},
+task6 is un-schedulable
+Running weakly-hard analysis: M=2, K=5
+Timeing Info: Usertime: 70.71user, System time: 1.99system, Elaped time: 1:12.70elapsed
+Constrain satisfied? false
+
+************************
+Reading ./taskset/n-6_u-0.99/41.txt
+{
+{1,1,8,6,true,1,0,0,0,0,true},
+{2,1,10,10,true,1,0,0,0,0,true},
+{3,2,14,4,true,2,0,0,0,0,true},
+{4,4,18,9,true,4,0,0,0,0,true},
+{5,3,18,13,true,3,0,0,0,0,true},
+{6,3,19,5,false,3,0,0,0,0,false},
+};
+task id: 6, {6,3,19,5,false,3,0,0,0,0,false},
+task6 is un-schedulable
+Running weakly-hard analysis: M=2, K=5
+Timeing Info: Usertime: 73.83user, System time: 2.04system, Elaped time: 1:15.89elapsed
+Constrain satisfied? false
+
+************************
+Reading ./taskset/n-6_u-0.99/42.txt
+{
+{1,1,7,4,true,1,0,0,0,0,true},
+{2,2,14,8,true,2,0,0,0,0,true},
+{3,2,15,6,true,2,0,0,0,0,true},
+{4,2,17,14,true,2,0,0,0,0,true},
+{5,2,19,11,true,2,0,0,0,0,true},
+{6,1,20,7,false,1,0,0,0,0,false},
+};
+task id: 6, {6,1,20,7,false,1,0,0,0,0,false},
+task6 is un-schedulable
+Running weakly-hard analysis: M=2, K=5
+Timeing Info: Usertime: 1106.06user, System time: 4.61system, Elaped time: 18:30.71elapsed
+Constrain satisfied? false
+
+************************
+Reading ./taskset/n-6_u-0.99/43.txt
+{
+{1,1,5,5,true,1,0,0,0,0,true},
+{2,1,6,3,true,1,0,0,0,0,true},
+{3,3,14,13,true,3,0,0,0,0,true},
+{4,3,15,15,true,3,0,0,0,0,true},
+{5,1,16,13,true,1,0,0,0,0,true},
+{6,3,17,12,false,3,0,0,0,0,false},
+};
+task id: 6, {6,3,17,12,false,3,0,0,0,0,false},
+task6 is un-schedulable
+Running weakly-hard analysis: M=2, K=5
+Timeing Info: Usertime: 54.22user, System time: 1.79system, Elaped time: 0:56.03elapsed
+Constrain satisfied? false
+
+************************
+Reading ./taskset/n-6_u-0.99/44.txt
+{
+{1,3,8,3,true,3,0,0,0,0,true},
+{2,1,16,15,true,1,0,0,0,0,true},
+{3,2,17,9,true,2,0,0,0,0,true},
+{4,1,17,8,true,1,0,0,0,0,true},
+{5,1,18,15,true,1,0,0,0,0,true},
+{6,5,20,10,false,5,0,0,0,0,false},
+};
+task id: 6, {6,5,20,10,false,5,0,0,0,0,false},
+task6 is un-schedulable
+Running weakly-hard analysis: M=2, K=5
+Timeing Info: Usertime: 63.44user, System time: 1.99system, Elaped time: 1:05.44elapsed
+Constrain satisfied? false
+
+************************
+Reading ./taskset/n-6_u-0.99/45.txt
+{
+{1,1,10,3,true,1,0,0,0,0,true},
+{2,1,11,3,true,1,0,0,0,0,true},
+{3,3,13,12,true,3,0,0,0,0,true},
+{4,2,19,10,true,2,0,0,0,0,true},
+{5,1,19,14,true,1,0,0,0,0,true},
+{6,10,20,12,false,10,0,0,0,0,false},
+};
+task id: 6, {6,10,20,12,false,10,0,0,0,0,false},
+task6 is un-schedulable
+Running weakly-hard analysis: M=2, K=5
+Timeing Info: Usertime: 90.03user, System time: 2.18system, Elaped time: 1:32.23elapsed
+Constrain satisfied? false
+
+************************
+Reading ./taskset/n-6_u-0.99/46.txt
+{
+{1,1,7,3,true,1,0,0,0,0,true},
+{2,1,10,5,true,1,0,0,0,0,true},
+{3,2,12,6,true,2,0,0,0,0,true},
+{4,1,15,5,true,1,0,0,0,0,true},
+{5,4,17,14,true,4,0,0,0,0,true},
+{6,5,19,13,false,5,0,0,0,0,false},
+};
+task id: 6, {6,5,19,13,false,5,0,0,0,0,false},
+task6 is un-schedulable
+Running weakly-hard analysis: M=2, K=5
+Timeing Info: Usertime: 116.77user, System time: 2.54system, Elaped time: 1:59.32elapsed
+Constrain satisfied? false
+
+************************
+Reading ./taskset/n-6_u-0.99/47.txt
+{
+{1,2,7,2,true,2,0,0,0,0,true},
+{2,2,12,11,true,2,0,0,0,0,true},
+{3,1,15,5,true,1,0,0,0,0,true},
+{4,2,18,10,true,2,0,0,0,0,true},
+{5,3,19,16,true,3,0,0,0,0,true},
+{6,1,19,6,false,1,0,0,0,0,false},
+};
+task id: 6, {6,1,19,6,false,1,0,0,0,0,false},
+task6 is un-schedulable
+Running weakly-hard analysis: M=2, K=5
+Timeing Info: Usertime: 54.75user, System time: 2.09system, Elaped time: 0:56.86elapsed
+Constrain satisfied? false
+
+************************
+Reading ./taskset/n-6_u-0.99/48.txt
+{
+{1,1,5,3,true,1,0,0,0,0,true},
+{2,1,8,6,true,1,0,0,0,0,true},
+{3,1,9,9,true,1,0,0,0,0,true},
+{4,1,13,5,true,1,0,0,0,0,true},
+{5,3,13,12,true,3,0,0,0,0,true},
+{6,3,15,13,false,3,0,0,0,0,false},
+};
+task id: 6, {6,3,15,13,false,3,0,0,0,0,false},
+task6 is un-schedulable
+Running weakly-hard analysis: M=2, K=5
+Timeing Info: Usertime: 455.10user, System time: 2.21system, Elaped time: 7:37.32elapsed
+Constrain satisfied? false
+
+************************
+Reading ./taskset/n-6_u-0.99/49.txt
+{
+{1,1,8,3,true,1,0,0,0,0,true},
+{2,2,8,4,true,2,0,0,0,0,true},
+{3,1,14,8,true,1,0,0,0,0,true},
+{4,1,16,9,true,1,0,0,0,0,true},
+{5,2,20,16,true,2,0,0,0,0,true},
+{6,6,20,8,false,6,0,0,0,0,false},
+};
+task id: 6, {6,6,20,8,false,6,0,0,0,0,false},
+task6 is un-schedulable
+Running weakly-hard analysis: M=2, K=5
+Timeing Info: Usertime: 80.29user, System time: 2.40system, Elaped time: 1:22.71elapsed
+Constrain satisfied? false
+
+************************
+Reading ./taskset/n-6_u-0.99/50.txt
+{
+{1,1,6,4,true,1,0,0,0,0,true},
+{2,1,7,5,true,1,0,0,0,0,true},
+{3,2,18,18,true,2,0,0,0,0,true},
+{4,1,20,15,true,1,0,0,0,0,true},
+{5,3,20,17,true,3,0,0,0,0,true},
+{6,4,20,4,false,4,0,0,0,0,false},
+};
+task id: 6, {6,4,20,4,false,4,0,0,0,0,false},
+task6 is un-schedulable
+Running weakly-hard analysis: M=2, K=5
+Timeing Info: Usertime: 64.06user, System time: 2.17system, Elaped time: 1:06.24elapsed
+Constrain satisfied? false
+
+************************
+Reading ./taskset/n-6_u-0.99/51.txt
+{
+{1,1,9,1,true,1,0,0,0,0,true},
+{2,2,13,7,true,2,0,0,0,0,true},
+{3,2,13,10,true,2,0,0,0,0,true},
+{4,2,13,10,true,2,0,0,0,0,true},
+{5,1,14,10,true,1,0,0,0,0,true},
+{6,3,16,9,false,3,0,0,0,0,false},
+};
+task id: 6, {6,3,16,9,false,3,0,0,0,0,false},
+task6 is un-schedulable
+Running weakly-hard analysis: M=2, K=5
+Timeing Info: Usertime: 169.57user, System time: 2.77system, Elaped time: 2:52.35elapsed
+Constrain satisfied? false
+
+************************
+Reading ./taskset/n-6_u-0.99/52.txt
+{
+{1,1,8,7,true,1,0,0,0,0,true},
+{2,1,12,2,true,1,0,0,0,0,true},
+{3,3,16,13,true,3,0,0,0,0,true},
+{4,1,17,17,true,1,0,0,0,0,true},
+{5,5,18,14,true,5,0,0,0,0,true},
+{6,7,20,15,false,7,0,0,0,0,false},
+};
+task id: 6, {6,7,20,15,false,7,0,0,0,0,false},
+task6 is un-schedulable
+Running weakly-hard analysis: M=2, K=5
+Timeing Info: Usertime: 94.31user, System time: 2.22system, Elaped time: 1:36.54elapsed
+Constrain satisfied? false
+
+************************
+Reading ./taskset/n-6_u-0.99/53.txt
+{
+{1,1,5,4,true,1,0,0,0,0,true},
+{2,1,5,4,true,1,0,0,0,0,true},
+{3,1,6,3,true,1,0,0,0,0,true},
+{4,1,8,8,true,1,0,0,0,0,true},
+{5,2,18,14,true,2,0,0,0,0,true},
+{6,6,19,8,false,6,0,0,0,0,false},
+};
+task id: 6, {6,6,19,8,false,6,0,0,0,0,false},
+task6 is un-schedulable
+Running weakly-hard analysis: M=2, K=5
+Timeing Info: Usertime: 73.54user, System time: 1.83system, Elaped time: 1:15.39elapsed
+Constrain satisfied? false
+
+************************
+Reading ./taskset/n-6_u-0.99/54.txt
+{
+{1,1,5,4,true,1,0,0,0,0,true},
+{2,2,14,3,true,2,0,0,0,0,true},
+{3,3,16,11,true,3,0,0,0,0,true},
+{4,1,18,10,true,1,0,0,0,0,true},
+{5,4,18,13,true,4,0,0,0,0,true},
+{6,4,19,11,false,4,0,0,0,0,false},
+};
+task id: 6, {6,4,19,11,false,4,0,0,0,0,false},
+task6 is un-schedulable
+Running weakly-hard analysis: M=2, K=5
+Timeing Info: Usertime: 89.36user, System time: 2.36system, Elaped time: 1:31.73elapsed
+Constrain satisfied? false
+
+************************
+Reading ./taskset/n-6_u-0.99/55.txt
+{
+{1,1,6,4,true,1,0,0,0,0,true},
+{2,2,7,3,true,2,0,0,0,0,true},
+{3,1,16,6,true,1,0,0,0,0,true},
+{4,3,18,17,true,3,0,0,0,0,true},
+{5,3,20,20,true,3,0,0,0,0,true},
+{6,3,20,17,false,3,0,0,0,0,false},
+};
+task id: 6, {6,3,20,17,false,3,0,0,0,0,false},
+task6 is un-schedulable
+Running weakly-hard analysis: M=2, K=5
+Timeing Info: Usertime: 95.45user, System time: 2.56system, Elaped time: 1:38.02elapsed
+Constrain satisfied? false
+
+************************
+Reading ./taskset/n-6_u-0.99/56.txt
+{
+{1,1,5,2,true,1,0,0,0,0,true},
+{2,1,6,4,true,1,0,0,0,0,true},
+{3,1,7,4,true,1,0,0,0,0,true},
+{4,1,8,7,true,1,0,0,0,0,true},
+{5,2,13,12,true,2,0,0,0,0,true},
+{6,8,20,9,false,8,0,0,0,0,false},
+};
+task id: 6, {6,8,20,9,false,8,0,0,0,0,false},
+task6 is un-schedulable
+Running weakly-hard analysis: M=2, K=5
+Timeing Info: Usertime: 75.55user, System time: 2.19system, Elaped time: 1:17.75elapsed
+Constrain satisfied? false
+
+************************
+Reading ./taskset/n-6_u-0.99/57.txt
+{
+{1,1,11,7,true,1,0,0,0,0,true},
+{2,1,13,11,true,1,0,0,0,0,true},
+{3,2,19,16,true,2,0,0,0,0,true},
+{4,2,19,11,true,2,0,0,0,0,true},
+{5,8,19,16,true,8,0,0,0,0,true},
+{6,3,20,17,false,3,0,0,0,0,true},
+};
+task id: 6, {6,3,20,17,false,3,0,0,0,0,true},
+task6 is un-schedulable
+Running weakly-hard analysis: M=2, K=5
+Timeing Info: time out ...
+Constrain satisfied? unknown
+
+************************
+Reading ./taskset/n-6_u-0.99/58.txt
+{
+{1,1,10,4,true,1,0,0,0,0,true},
+{2,1,11,11,true,1,0,0,0,0,true},
+{3,2,12,4,true,2,0,0,0,0,true},
+{4,5,17,15,true,5,0,0,0,0,true},
+{5,1,19,13,true,1,0,0,0,0,true},
+{6,4,20,9,false,4,0,0,0,0,false},
+};
+task id: 6, {6,4,20,9,false,4,0,0,0,0,false},
+task6 is un-schedulable
+Running weakly-hard analysis: M=2, K=5
+Timeing Info: Usertime: 67.54user, System time: 2.08system, Elaped time: 1:09.63elapsed
+Constrain satisfied? false
+
+************************
+Reading ./taskset/n-6_u-0.99/59.txt
+{
+{1,1,5,4,true,1,0,0,0,0,true},
+{2,1,5,3,true,1,0,0,0,0,true},
+{3,1,18,17,true,1,0,0,0,0,true},
+{4,1,18,11,true,1,0,0,0,0,true},
+{5,6,19,14,true,6,0,0,0,0,true},
+{6,2,19,6,false,2,0,0,0,0,false},
+};
+task id: 6, {6,2,19,6,false,2,0,0,0,0,false},
+task6 is un-schedulable
+Running weakly-hard analysis: M=2, K=5
+Timeing Info: Usertime: 58.98user, System time: 1.81system, Elaped time: 1:00.80elapsed
+Constrain satisfied? false
+
+************************
+Reading ./taskset/n-6_u-0.99/60.txt
+{
+{1,1,5,4,true,1,0,0,0,0,true},
+{2,1,10,3,true,1,0,0,0,0,true},
+{3,3,10,8,true,3,0,0,0,0,true},
+{4,1,13,13,true,1,0,0,0,0,true},
+{5,2,13,11,true,2,0,0,0,0,true},
+{6,1,13,8,false,1,0,0,0,0,false},
+};
+task id: 6, {6,1,13,8,false,1,0,0,0,0,false},
+task6 is un-schedulable
+Running weakly-hard analysis: M=2, K=5
+Timeing Info: Usertime: 61.71user, System time: 1.38system, Elaped time: 1:03.09elapsed
+Constrain satisfied? false
+
+************************
+Reading ./taskset/n-6_u-0.99/61.txt
+{
+{1,2,7,5,true,2,0,0,0,0,true},
+{2,2,9,6,true,2,0,0,0,0,true},
+{3,1,9,5,true,1,0,0,0,0,true},
+{4,1,9,9,true,1,0,0,0,0,true},
+{5,1,9,9,true,1,0,0,0,0,true},
+{6,1,14,5,false,1,0,0,0,0,false},
+};
+task id: 6, {6,1,14,5,false,1,0,0,0,0,false},
+task6 is un-schedulable
+Running weakly-hard analysis: M=2, K=5
+Timeing Info: Usertime: 51.69user, System time: 1.54system, Elaped time: 0:53.24elapsed
+Constrain satisfied? false
+
+************************
+Reading ./taskset/n-6_u-0.99/62.txt
+{
+{1,1,9,5,true,1,0,0,0,0,true},
+{2,1,11,3,true,1,0,0,0,0,true},
+{3,1,11,11,true,1,0,0,0,0,true},
+{4,1,11,9,true,1,0,0,0,0,true},
+{5,2,13,7,true,2,0,0,0,0,true},
+{6,5,15,15,false,5,0,0,0,0,true},
+};
+task id: 6, {6,5,15,15,false,5,0,0,0,0,true},
+task6 is un-schedulable
+Running weakly-hard analysis: M=2, K=5
+Timeing Info: time out ...
+Constrain satisfied? unknown
+
+************************
+Reading ./taskset/n-6_u-0.99/63.txt
+{
+{1,1,10,3,true,1,0,0,0,0,true},
+{2,1,10,10,true,1,0,0,0,0,true},
+{3,1,12,12,true,1,0,0,0,0,true},
+{4,1,15,9,true,1,0,0,0,0,true},
+{5,1,19,11,true,1,0,0,0,0,true},
+{6,12,19,13,false,12,0,0,0,0,false},
+};
+task id: 6, {6,12,19,13,false,12,0,0,0,0,false},
+task6 is un-schedulable
+Running weakly-hard analysis: M=2, K=5
+Timeing Info: Usertime: 89.85user, System time: 2.55system, Elaped time: 1:32.42elapsed
+Constrain satisfied? false
+
+************************
+Reading ./taskset/n-6_u-0.99/64.txt
+{
+{1,1,7,3,true,1,0,0,0,0,true},
+{2,1,10,6,true,1,0,0,0,0,true},
+{3,1,14,10,true,1,0,0,0,0,true},
+{4,2,15,12,true,2,0,0,0,0,true},
+{5,3,15,11,true,3,0,0,0,0,true},
+{6,7,19,15,false,7,0,0,0,0,false},
+};
+task id: 6, {6,7,19,15,false,7,0,0,0,0,false},
+task6 is un-schedulable
+Running weakly-hard analysis: M=2, K=5
+Timeing Info: Usertime: 108.21user, System time: 2.14system, Elaped time: 1:50.36elapsed
+Constrain satisfied? false
+
+************************
+Reading ./taskset/n-6_u-0.99/65.txt
+{
+{1,1,5,3,true,1,0,0,0,0,true},
+{2,1,7,2,true,1,0,0,0,0,true},
+{3,2,11,8,true,2,0,0,0,0,true},
+{4,1,12,7,true,1,0,0,0,0,true},
+{5,1,16,16,true,1,0,0,0,0,true},
+{6,5,18,14,false,5,0,0,0,0,false},
+};
+task id: 6, {6,5,18,14,false,5,0,0,0,0,false},
+task6 is un-schedulable
+Running weakly-hard analysis: M=2, K=5
+Timeing Info: Usertime: 66.68user, System time: 1.71system, Elaped time: 1:08.40elapsed
+Constrain satisfied? false
+
+************************
+Reading ./taskset/n-6_u-0.99/66.txt
+{
+{1,1,6,4,true,1,0,0,0,0,true},
+{2,1,7,7,true,1,0,0,0,0,true},
+{3,2,14,4,true,2,0,0,0,0,true},
+{4,1,15,12,true,1,0,0,0,0,true},
+{5,1,18,16,true,1,0,0,0,0,true},
+{6,9,19,16,false,9,0,0,0,0,false},
+};
+task id: 6, {6,9,19,16,false,9,0,0,0,0,false},
+task6 is un-schedulable
+Running weakly-hard analysis: M=2, K=5
+Timeing Info: Usertime: 57.27user, System time: 2.00system, Elaped time: 0:59.28elapsed
+Constrain satisfied? false
+
+************************
+Reading ./taskset/n-6_u-0.99/67.txt
+{
+{1,2,7,4,true,2,0,0,0,0,true},
+{2,1,9,3,true,1,0,0,0,0,true},
+{3,1,11,11,true,1,0,0,0,0,true},
+{4,1,18,13,true,1,0,0,0,0,true},
+{5,4,19,15,true,4,0,0,0,0,true},
+{6,1,20,10,false,1,0,0,0,0,false},
+};
+task id: 6, {6,1,20,10,false,1,0,0,0,0,false},
+task6 is un-schedulable
+Running weakly-hard analysis: M=2, K=5
+Timeing Info: Usertime: 205.71user, System time: 2.24system, Elaped time: 3:27.96elapsed
+Constrain satisfied? false
+
+************************
+Reading ./taskset/n-6_u-0.99/68.txt
+{
+{1,1,8,2,true,1,0,0,0,0,true},
+{2,1,9,8,true,1,0,0,0,0,true},
+{3,1,11,9,true,1,0,0,0,0,true},
+{4,2,16,6,true,2,0,0,0,0,true},
+{5,7,17,15,true,7,0,0,0,0,true},
+{6,2,19,9,false,2,0,0,0,0,false},
+};
+task id: 6, {6,2,19,9,false,2,0,0,0,0,false},
+task6 is un-schedulable
+Running weakly-hard analysis: M=2, K=5
+Timeing Info: Usertime: 60.68user, System time: 1.71system, Elaped time: 1:02.41elapsed
+Constrain satisfied? false
+
+************************
+Reading ./taskset/n-6_u-0.99/69.txt
+{
+{1,1,7,2,true,1,0,0,0,0,true},
+{2,1,10,2,true,1,0,0,0,0,true},
+{3,1,11,9,true,1,0,0,0,0,true},
+{4,1,12,6,true,1,0,0,0,0,true},
+{5,3,13,7,true,3,0,0,0,0,true},
+{6,5,15,5,false,5,0,0,0,0,false},
+};
+task id: 6, {6,5,15,5,false,5,0,0,0,0,false},
+task6 is un-schedulable
+Running weakly-hard analysis: M=2, K=5
+Timeing Info: Usertime: 51.04user, System time: 1.56system, Elaped time: 0:52.61elapsed
+Constrain satisfied? false
+
+************************
+Reading ./taskset/n-6_u-0.99/70.txt
+{
+{1,1,8,3,true,1,0,0,0,0,true},
+{2,1,8,6,true,1,0,0,0,0,true},
+{3,1,10,10,true,1,0,0,0,0,true},
+{4,1,12,11,true,1,0,0,0,0,true},
+{5,3,12,9,true,3,0,0,0,0,true},
+{6,3,18,12,false,3,0,0,0,0,true},
+};
+task id: 6, {6,3,18,12,false,3,0,0,0,0,true},
+task6 is un-schedulable
+Running weakly-hard analysis: M=2, K=5
+Timeing Info: time out ...
+Constrain satisfied? unknown
+
+************************
+Reading ./taskset/n-6_u-0.99/71.txt
+{
+{1,1,5,5,true,1,0,0,0,0,true},
+{2,1,14,10,true,1,0,0,0,0,true},
+{3,4,16,16,true,4,0,0,0,0,true},
+{4,2,19,17,true,2,0,0,0,0,true},
+{5,2,19,17,true,2,0,0,0,0,true},
+{6,3,20,18,false,3,0,0,0,0,true},
+};
+task id: 6, {6,3,20,18,false,3,0,0,0,0,true},
+task6 is un-schedulable
+Running weakly-hard analysis: M=2, K=5
+Timeing Info: time out ...
+Constrain satisfied? unknown
+
+************************
+Reading ./taskset/n-6_u-0.99/72.txt
+{
+{1,1,10,3,true,1,0,0,0,0,true},
+{2,2,17,4,true,2,0,0,0,0,true},
+{3,1,18,8,true,1,0,0,0,0,true},
+{4,2,19,9,true,2,0,0,0,0,true},
+{5,1,20,8,true,1,0,0,0,0,true},
+{6,8,20,10,false,8,0,0,0,0,false},
+};
+task id: 6, {6,8,20,10,false,8,0,0,0,0,false},
+task6 is un-schedulable
+Running weakly-hard analysis: M=2, K=5
+Timeing Info: Usertime: 63.25user, System time: 1.81system, Elaped time: 1:05.07elapsed
+Constrain satisfied? false
+
+************************
+Reading ./taskset/n-6_u-0.99/73.txt
+{
+{1,1,7,4,true,1,0,0,0,0,true},
+{2,1,7,5,true,1,0,0,0,0,true},
+{3,3,8,8,true,3,0,0,0,0,true},
+{4,1,12,12,true,1,0,0,0,0,true},
+{5,1,13,9,true,1,0,0,0,0,true},
+{6,1,15,12,false,1,0,0,0,0,true},
+};
+task id: 6, {6,1,15,12,false,1,0,0,0,0,true},
+task6 is un-schedulable
+Running weakly-hard analysis: M=2, K=5
+Timeing Info: time out ...
+Constrain satisfied? unknown
+
+************************
+Reading ./taskset/n-6_u-0.99/74.txt
+{
+{1,1,6,3,true,1,0,0,0,0,true},
+{2,1,7,4,true,1,0,0,0,0,true},
+{3,1,7,5,true,1,0,0,0,0,true},
+{4,2,15,12,true,2,0,0,0,0,true},
+{5,1,15,11,true,1,0,0,0,0,true},
+{6,5,15,11,false,5,0,0,0,0,false},
+};
+task id: 6, {6,5,15,11,false,5,0,0,0,0,false},
+task6 is un-schedulable
+Running weakly-hard analysis: M=2, K=5
+Timeing Info: Usertime: 52.93user, System time: 1.63system, Elaped time: 0:54.57elapsed
+Constrain satisfied? false
+
+************************
+Reading ./taskset/n-6_u-0.99/75.txt
+{
+{1,3,9,3,true,3,0,0,0,0,true},
+{2,1,11,9,true,1,0,0,0,0,true},
+{3,1,13,7,true,1,0,0,0,0,true},
+{4,1,13,11,true,1,0,0,0,0,true},
+{5,1,17,9,true,1,0,0,0,0,true},
+{6,5,19,11,false,5,0,0,0,0,false},
+};
+task id: 6, {6,5,19,11,false,5,0,0,0,0,false},
+task6 is un-schedulable
+Running weakly-hard analysis: M=2, K=5
+Timeing Info: Usertime: 61.06user, System time: 1.84system, Elaped time: 1:02.90elapsed
+Constrain satisfied? false
+
+************************
+Reading ./taskset/n-6_u-0.99/76.txt
+{
+{1,1,7,4,true,1,0,0,0,0,true},
+{2,1,10,10,true,1,0,0,0,0,true},
+{3,1,13,13,true,1,0,0,0,0,true},
+{4,1,16,5,true,1,0,0,0,0,true},
+{5,1,16,8,true,1,0,0,0,0,true},
+{6,12,19,16,false,12,0,0,0,0,false},
+};
+task id: 6, {6,12,19,16,false,12,0,0,0,0,false},
+task6 is un-schedulable
+Running weakly-hard analysis: M=2, K=5
+Timeing Info: Usertime: 59.11user, System time: 1.77system, Elaped time: 1:00.89elapsed
+Constrain satisfied? false
+
+************************
+Reading ./taskset/n-6_u-0.99/77.txt
+{
+{1,1,5,3,true,1,0,0,0,0,true},
+{2,1,11,8,true,1,0,0,0,0,true},
+{3,4,15,8,true,4,0,0,0,0,true},
+{4,1,19,17,true,1,0,0,0,0,true},
+{5,1,19,15,true,1,0,0,0,0,true},
+{6,5,20,12,false,5,0,0,0,0,false},
+};
+task id: 6, {6,5,20,12,false,5,0,0,0,0,false},
+task6 is un-schedulable
+Running weakly-hard analysis: M=2, K=5
+Timeing Info: Usertime: 71.91user, System time: 2.06system, Elaped time: 1:13.98elapsed
+Constrain satisfied? false
+
+************************
+Reading ./taskset/n-6_u-0.99/78.txt
+{
+{1,1,5,4,true,1,0,0,0,0,true},
+{2,1,5,2,true,1,0,0,0,0,true},
+{3,1,7,7,true,1,0,0,0,0,true},
+{4,1,8,7,true,1,0,0,0,0,true},
+{5,1,19,10,true,1,0,0,0,0,true},
+{6,10,20,20,false,10,0,0,0,0,false},
+};
+task id: 6, {6,10,20,20,false,10,0,0,0,0,false},
+task6 is un-schedulable
+Running weakly-hard analysis: M=2, K=5
+Timeing Info: Usertime: 86.85user, System time: 2.02system, Elaped time: 1:28.88elapsed
+Constrain satisfied? false
+
+************************
+Reading ./taskset/n-6_u-0.99/79.txt
+{
+{1,1,5,1,true,1,0,0,0,0,true},
+{2,1,7,6,true,1,0,0,0,0,true},
+{3,2,11,6,true,2,0,0,0,0,true},
+{4,1,13,6,true,1,0,0,0,0,true},
+{5,2,18,13,true,2,0,0,0,0,true},
+{6,5,20,8,false,5,0,0,0,0,false},
+};
+task id: 6, {6,5,20,8,false,5,0,0,0,0,false},
+task6 is un-schedulable
+Running weakly-hard analysis: M=2, K=5
+Timeing Info: Usertime: 80.76user, System time: 2.24system, Elaped time: 1:23.09elapsed
+Constrain satisfied? false
+
+************************
+Reading ./taskset/n-6_u-0.99/80.txt
+{
+{1,1,6,6,true,1,0,0,0,0,true},
+{2,2,12,12,true,2,0,0,0,0,true},
+{3,2,13,7,true,2,0,0,0,0,true},
+{4,5,15,11,true,5,0,0,0,0,true},
+{5,1,16,15,true,1,0,0,0,0,true},
+{6,3,20,17,false,3,0,0,0,0,false},
+};
+task id: 6, {6,3,20,17,false,3,0,0,0,0,false},
+task6 is un-schedulable
+Running weakly-hard analysis: M=2, K=5
+Timeing Info: Usertime: 64.99user, System time: 2.33system, Elaped time: 1:07.33elapsed
+Constrain satisfied? false
+
+************************
+Reading ./taskset/n-6_u-0.99/81.txt
+{
+{1,1,9,7,true,1,0,0,0,0,true},
+{2,1,13,5,true,1,0,0,0,0,true},
+{3,1,16,6,true,1,0,0,0,0,true},
+{4,4,18,7,true,4,0,0,0,0,true},
+{5,7,19,18,true,7,0,0,0,0,true},
+{6,2,20,19,false,2,0,0,0,0,true},
+};
+task id: 6, {6,2,20,19,false,2,0,0,0,0,true},
+task6 is un-schedulable
+Running weakly-hard analysis: M=2, K=5
+Timeing Info: time out ...
+Constrain satisfied? unknown
+
+************************
+Reading ./taskset/n-6_u-0.99/82.txt
+{
+{1,1,7,1,true,1,0,0,0,0,true},
+{2,1,14,12,true,1,0,0,0,0,true},
+{3,3,14,10,true,3,0,0,0,0,true},
+{4,4,16,14,true,4,0,0,0,0,true},
+{5,4,17,17,true,4,0,0,0,0,true},
+{6,2,17,7,false,2,0,0,0,0,false},
+};
+task id: 6, {6,2,17,7,false,2,0,0,0,0,false},
+task6 is un-schedulable
+Running weakly-hard analysis: M=2, K=5
+Timeing Info: Usertime: 48.90user, System time: 1.91system, Elaped time: 0:50.82elapsed
+Constrain satisfied? false
+
+************************
+Reading ./taskset/n-6_u-0.99/83.txt
+{
+{1,1,6,2,true,1,0,0,0,0,true},
+{2,1,8,4,true,1,0,0,0,0,true},
+{3,2,8,8,true,2,0,0,0,0,true},
+{4,1,10,10,true,1,0,0,0,0,true},
+{5,1,19,13,true,1,0,0,0,0,true},
+{6,5,19,12,false,5,0,0,0,0,false},
+};
+task id: 6, {6,5,19,12,false,5,0,0,0,0,false},
+task6 is un-schedulable
+Running weakly-hard analysis: M=2, K=5
+Timeing Info: Usertime: 63.85user, System time: 2.20system, Elaped time: 1:06.06elapsed
+Constrain satisfied? false
+
+************************
+Reading ./taskset/n-6_u-0.99/84.txt
+{
+{1,1,5,1,true,1,0,0,0,0,true},
+{2,1,8,3,true,1,0,0,0,0,true},
+{3,1,12,11,true,1,0,0,0,0,true},
+{4,4,12,8,true,4,0,0,0,0,true},
+{5,1,15,15,true,1,0,0,0,0,true},
+{6,1,17,1,false,1,0,0,0,0,false},
+};
+task id: 6, {6,1,17,1,false,1,0,0,0,0,false},
+task6 is un-schedulable
+Running weakly-hard analysis: M=2, K=5
+Timeing Info: Usertime: 52.27user, System time: 1.82system, Elaped time: 0:54.10elapsed
+Constrain satisfied? false
+
+************************
+Reading ./taskset/n-6_u-0.99/85.txt
+{
+{1,1,5,2,true,1,0,0,0,0,true},
+{2,1,7,6,true,1,0,0,0,0,true},
+{3,1,8,7,true,1,0,0,0,0,true},
+{4,2,9,8,true,2,0,0,0,0,true},
+{5,1,13,8,true,1,0,0,0,0,true},
+{6,1,14,3,false,1,0,0,0,0,false},
+};
+task id: 6, {6,1,14,3,false,1,0,0,0,0,false},
+task6 is un-schedulable
+Running weakly-hard analysis: M=2, K=5
+Timeing Info: Usertime: 37.42user, System time: 1.83system, Elaped time: 0:39.26elapsed
+Constrain satisfied? false
+
+************************
+Reading ./taskset/n-6_u-0.99/86.txt
+{
+{1,1,5,5,true,1,0,0,0,0,true},
+{2,1,6,5,true,1,0,0,0,0,true},
+{3,2,7,7,true,2,0,0,0,0,true},
+{4,1,7,5,true,1,0,0,0,0,true},
+{5,1,16,16,true,1,0,0,0,0,true},
+{6,1,20,3,false,1,0,0,0,0,false},
+};
+task id: 6, {6,1,20,3,false,1,0,0,0,0,false},
+task6 is un-schedulable
+Running weakly-hard analysis: M=2, K=5
+Timeing Info: Usertime: 66.31user, System time: 2.03system, Elaped time: 1:08.35elapsed
+Constrain satisfied? false
+
+************************
+Reading ./taskset/n-6_u-0.99/87.txt
+{
+{1,1,5,3,true,1,0,0,0,0,true},
+{2,1,7,7,true,1,0,0,0,0,true},
+{3,2,9,9,true,2,0,0,0,0,true},
+{4,1,10,8,true,1,0,0,0,0,true},
+{5,2,11,11,true,2,0,0,0,0,true},
+{6,2,19,2,false,2,0,0,0,0,false},
+};
+task id: 6, {6,2,19,2,false,2,0,0,0,0,false},
+task6 is un-schedulable
+Running weakly-hard analysis: M=2, K=5
+Timeing Info: Usertime: 52.40user, System time: 1.88system, Elaped time: 0:54.28elapsed
+Constrain satisfied? false
+
+************************
+Reading ./taskset/n-6_u-0.99/88.txt
+{
+{1,1,9,1,true,1,0,0,0,0,true},
+{2,1,16,7,true,1,0,0,0,0,true},
+{3,1,16,16,true,1,0,0,0,0,true},
+{4,2,17,17,true,2,0,0,0,0,true},
+{5,7,18,14,true,7,0,0,0,0,true},
+{6,2,18,8,false,2,0,0,0,0,false},
+};
+task id: 6, {6,2,18,8,false,2,0,0,0,0,false},
+task6 is un-schedulable
+Running weakly-hard analysis: M=2, K=5
+Timeing Info: Usertime: 60.92user, System time: 1.68system, Elaped time: 1:02.61elapsed
+Constrain satisfied? false
+
+************************
+Reading ./taskset/n-6_u-0.99/89.txt
+{
+{1,1,12,5,true,1,0,0,0,0,true},
+{2,2,17,11,true,2,0,0,0,0,true},
+{3,1,19,9,true,1,0,0,0,0,true},
+{4,1,19,14,true,1,0,0,0,0,true},
+{5,1,20,13,true,1,0,0,0,0,true},
+{6,11,20,18,false,11,0,0,0,0,true},
+};
+task id: 6, {6,11,20,18,false,11,0,0,0,0,true},
+task6 is un-schedulable
+Running weakly-hard analysis: M=2, K=5
+Timeing Info: time out ...
+Constrain satisfied? unknown
+
+************************
+Reading ./taskset/n-6_u-0.99/90.txt
+{
+{1,1,11,8,true,1,0,0,0,0,true},
+{2,2,12,12,true,2,0,0,0,0,true},
+{3,3,13,9,true,3,0,0,0,0,true},
+{4,1,15,14,true,1,0,0,0,0,true},
+{5,2,18,13,true,2,0,0,0,0,true},
+{6,3,20,7,false,3,0,0,0,0,false},
+};
+task id: 6, {6,3,20,7,false,3,0,0,0,0,false},
+task6 is un-schedulable
+Running weakly-hard analysis: M=2, K=5
+Timeing Info: Usertime: 86.11user, System time: 2.04system, Elaped time: 1:28.17elapsed
+Constrain satisfied? false
+
+************************
+Reading ./taskset/n-6_u-0.99/91.txt
+{
+{1,1,7,6,true,1,0,0,0,0,true},
+{2,1,12,9,true,1,0,0,0,0,true},
+{3,1,12,6,true,1,0,0,0,0,true},
+{4,2,14,12,true,2,0,0,0,0,true},
+{5,1,17,12,true,1,0,0,0,0,true},
+{6,8,20,12,false,8,0,0,0,0,false},
+};
+task id: 6, {6,8,20,12,false,8,0,0,0,0,false},
+task6 is un-schedulable
+Running weakly-hard analysis: M=2, K=5
+Timeing Info: Usertime: 60.38user, System time: 2.23system, Elaped time: 1:02.61elapsed
+Constrain satisfied? false
+
+************************
+Reading ./taskset/n-6_u-0.99/92.txt
+{
+{1,1,6,4,true,1,0,0,0,0,true},
+{2,1,9,9,true,1,0,0,0,0,true},
+{3,1,13,6,true,1,0,0,0,0,true},
+{4,1,15,13,true,1,0,0,0,0,true},
+{5,5,15,14,true,5,0,0,0,0,true},
+{6,7,20,19,false,7,0,0,0,0,false},
+};
+task id: 6, {6,7,20,19,false,7,0,0,0,0,false},
+task6 is un-schedulable
+Running weakly-hard analysis: M=2, K=5
+Timeing Info: Usertime: 68.07user, System time: 2.51system, Elaped time: 1:10.58elapsed
+Constrain satisfied? false
+
+************************
+Reading ./taskset/n-6_u-0.99/93.txt
+{
+{1,5,13,6,true,5,0,0,0,0,true},
+{2,1,16,14,true,1,0,0,0,0,true},
+{3,1,17,11,true,1,0,0,0,0,true},
+{4,2,18,17,true,2,0,0,0,0,true},
+{5,3,18,14,true,3,0,0,0,0,true},
+{6,3,20,19,false,3,0,0,0,0,false},
+};
+task id: 6, {6,3,20,19,false,3,0,0,0,0,false},
+task6 is un-schedulable
+Running weakly-hard analysis: M=2, K=5
+Timeing Info: Usertime: 730.09user, System time: 3.73system, Elaped time: 12:13.83elapsed
+Constrain satisfied? false
+
+************************
+Reading ./taskset/n-6_u-0.99/94.txt
+{
+{1,1,9,6,true,1,0,0,0,0,true},
+{2,1,9,3,true,1,0,0,0,0,true},
+{3,1,10,4,true,1,0,0,0,0,true},
+{4,1,11,8,true,1,0,0,0,0,true},
+{5,3,14,11,true,3,0,0,0,0,true},
+{6,6,16,12,false,6,0,0,0,0,false},
+};
+task id: 6, {6,6,16,12,false,6,0,0,0,0,false},
+task6 is un-schedulable
+Running weakly-hard analysis: M=2, K=5
+Timeing Info: Usertime: 43.05user, System time: 1.75system, Elaped time: 0:44.81elapsed
+Constrain satisfied? false
+
+************************
+Reading ./taskset/n-6_u-0.99/95.txt
+{
+{1,1,7,1,true,1,0,0,0,0,true},
+{2,1,9,6,true,1,0,0,0,0,true},
+{3,1,10,5,true,1,0,0,0,0,true},
+{4,1,16,8,true,1,0,0,0,0,true},
+{5,3,18,18,true,3,0,0,0,0,true},
+{6,7,19,10,false,7,0,0,0,0,false},
+};
+task id: 6, {6,7,19,10,false,7,0,0,0,0,false},
+task6 is un-schedulable
+Running weakly-hard analysis: M=2, K=5
+Timeing Info: Usertime: 59.31user, System time: 1.78system, Elaped time: 1:01.11elapsed
+Constrain satisfied? false
+
+************************
+Reading ./taskset/n-6_u-0.99/96.txt
+{
+{1,1,8,1,true,1,0,0,0,0,true},
+{2,3,10,6,true,3,0,0,0,0,true},
+{3,1,11,11,true,1,0,0,0,0,true},
+{4,1,16,6,true,1,0,0,0,0,true},
+{5,3,18,14,true,3,0,0,0,0,true},
+{6,3,18,16,false,3,0,0,0,0,true},
+};
+task id: 6, {6,3,18,16,false,3,0,0,0,0,true},
+task6 is un-schedulable
+Running weakly-hard analysis: M=2, K=5
+Timeing Info: time out ...
+Constrain satisfied? unknown
+
+************************
+Reading ./taskset/n-6_u-0.99/97.txt
+{
+{1,2,6,4,true,2,0,0,0,0,true},
+{2,2,7,6,true,2,0,0,0,0,true},
+{3,1,10,5,true,1,0,0,0,0,true},
+{4,1,16,6,true,1,0,0,0,0,true},
+{5,1,18,16,true,1,0,0,0,0,true},
+{6,1,19,14,false,1,0,0,0,0,true},
+};
+task id: 6, {6,1,19,14,false,1,0,0,0,0,true},
+task6 is un-schedulable
+Running weakly-hard analysis: M=2, K=5
+Timeing Info: time out ...
+Constrain satisfied? unknown
+
+************************
+Reading ./taskset/n-6_u-0.99/98.txt
+{
+{1,2,7,3,true,2,0,0,0,0,true},
+{2,1,10,6,true,1,0,0,0,0,true},
+{3,1,12,8,true,1,0,0,0,0,true},
+{4,2,13,11,true,2,0,0,0,0,true},
+{5,1,13,10,true,1,0,0,0,0,true},
+{6,1,20,8,false,1,0,0,0,0,true},
+};
+task id: 6, {6,1,20,8,false,1,0,0,0,0,true},
+task6 is un-schedulable
+Running weakly-hard analysis: M=2, K=5
+Timeing Info: time out ...
+Constrain satisfied? unknown
+
+************************
+Reading ./taskset/n-6_u-0.99/99.txt
+{
+{1,1,6,3,true,1,0,0,0,0,true},
+{2,1,9,2,true,1,0,0,0,0,true},
+{3,2,13,9,true,2,0,0,0,0,true},
+{4,4,15,10,true,4,0,0,0,0,true},
+{5,1,15,13,true,1,0,0,0,0,true},
+{6,6,16,16,false,6,0,0,0,0,false},
+};
+task id: 6, {6,6,16,16,false,6,0,0,0,0,false},
+task6 is un-schedulable
+Running weakly-hard analysis: M=2, K=5
+Timeing Info: Usertime: 75.43user, System time: 2.02system, Elaped time: 1:17.47elapsed
+Constrain satisfied? false
+
+************************
+Reading ./taskset/n-6_u-0.99/100.txt
+{
+{1,1,8,8,true,1,0,0,0,0,true},
+{2,1,10,8,true,1,0,0,0,0,true},
+{3,1,13,8,true,1,0,0,0,0,true},
+{4,1,14,13,true,1,0,0,0,0,true},
+{5,4,14,9,true,4,0,0,0,0,true},
+{6,4,19,18,false,4,0,0,0,0,true},
+};
+task id: 6, {6,4,19,18,false,4,0,0,0,0,true},
+task6 is un-schedulable
+Running weakly-hard analysis: M=2, K=5
+Timeing Info: time out ...
+Constrain satisfied? unknown
+
